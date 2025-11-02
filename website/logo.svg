@@ -1,0 +1,33 @@
+<svg width="180" height="50" viewBox="0 0 180 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Shield/Knowledge symbol with P -->
+  <g>
+    <!-- Outer shield representing protection and assurance -->
+    <path d="M15 8 L25 5 L35 8 L35 20 C35 28 25 33 25 33 C25 33 15 28 15 20 L15 8 Z"
+          fill="#0D7377"
+          stroke="#32E0C4"
+          stroke-width="1.5"/>
+
+    <!-- Inner glow for comfort -->
+    <path d="M18 10 L25 8 L32 10 L32 19 C32 25 25 29 25 29 C25 29 18 25 18 19 L18 10 Z"
+          fill="#0A5C5F"
+          opacity="0.7"/>
+
+    <!-- Checkmark for assurance -->
+    <path d="M21 19 L24 22 L29 15"
+          stroke="#32E0C4"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          fill="none"/>
+  </g>
+
+  <!-- Text: Pacio -->
+  <text x="42" y="30" font-family="'Inter', sans-serif" font-size="28" font-weight="800" fill="#1F2937" letter-spacing="-0.5">
+    Pacio
+  </text>
+
+  <!-- Subtle tagline -->
+  <text x="43" y="38" font-family="'Inter', sans-serif" font-size="8" font-weight="500" fill="#0D7377" letter-spacing="0.5">
+    TECHNICAL ASSESSMENTS
+  </text>
+</svg>

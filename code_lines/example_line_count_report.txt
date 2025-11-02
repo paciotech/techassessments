@@ -1,0 +1,312 @@
+====================================================================================================
+CODE LINE COUNT ANALYSIS REPORT
+====================================================================================================
+
+
+====================================================================================================
+DIRECTORY: .claude (.claude)
+====================================================================================================
+
+  JSON:
+    Files:                  1
+    Total Lines:           13
+    Code Lines:            12
+    Comment Lines:          0
+    Blank Lines:            1
+
+  --------------------------------------------------
+  DIRECTORY TOTAL:
+    Files:                  1
+    Total Lines:           13
+    Code Lines:            12
+    Comment Lines:          0
+    Blank Lines:            1
+
+
+====================================================================================================
+DIRECTORY: BuilderInfra (AllyAssistBuilderInfrastructure)
+====================================================================================================
+
+  C#:
+    Files:                892
+    Total Lines:      472,938
+    Code Lines:       334,746
+    Comment Lines:     12,128
+    Blank Lines:      126,064
+
+  JSON:
+    Files:                  8
+    Total Lines:          701
+    Code Lines:           690
+    Comment Lines:          0
+    Blank Lines:           11
+
+  --------------------------------------------------
+  DIRECTORY TOTAL:
+    Files:                900
+    Total Lines:      473,639
+    Code Lines:       335,436
+    Comment Lines:     12,128
+    Blank Lines:      126,075
+
+
+====================================================================================================
+DIRECTORY: Admin (AllyAssistOneAppAdmin)
+====================================================================================================
+
+  HTML:
+    Files:                 40
+    Total Lines:        3,025
+    Code Lines:         2,713
+    Comment Lines:         69
+    Blank Lines:          243
+
+  JavaScript:
+    Files:                  5
+    Total Lines:          216
+    Code Lines:           194
+    Comment Lines:         11
+    Blank Lines:           11
+
+  JSON:
+    Files:                 16
+    Total Lines:       22,204
+    Code Lines:        22,188
+    Comment Lines:          0
+    Blank Lines:           16
+
+  SCSS:
+    Files:                 40
+    Total Lines:        4,341
+    Code Lines:         3,592
+    Comment Lines:         34
+    Blank Lines:          715
+
+  TypeScript:
+    Files:                215
+    Total Lines:       12,338
+    Code Lines:         9,998
+    Comment Lines:        544
+    Blank Lines:        1,796
+
+  --------------------------------------------------
+  DIRECTORY TOTAL:
+    Files:                316
+    Total Lines:       42,124
+    Code Lines:        38,685
+    Comment Lines:        658
+    Blank Lines:        2,781
+
+
+====================================================================================================
+DIRECTORY: PWA (AllyAssistOneAppPWA)
+====================================================================================================
+
+  C#:
+    Files:                  2
+    Total Lines:          147
+    Code Lines:            71
+    Comment Lines:         35
+    Blank Lines:           41
+
+  HTML:
+    Files:                156
+    Total Lines:       12,274
+    Code Lines:        10,979
+    Comment Lines:        605
+    Blank Lines:          690
+
+  JavaScript:
+    Files:                  5
+    Total Lines:          220
+    Code Lines:           195
+    Comment Lines:         13
+    Blank Lines:           12
+
+  JSON:
+    Files:                 13
+    Total Lines:       23,868
+    Code Lines:        23,857
+    Comment Lines:          0
+    Blank Lines:           11
+
+  SCSS:
+    Files:                148
+    Total Lines:       28,460
+    Code Lines:        22,803
+    Comment Lines:        986
+    Blank Lines:        4,671
+
+  TypeScript:
+    Files:                555
+    Total Lines:       67,726
+    Code Lines:        48,580
+    Comment Lines:     11,873
+    Blank Lines:        7,273
+
+  --------------------------------------------------
+  DIRECTORY TOTAL:
+    Files:                879
+    Total Lines:      132,695
+    Code Lines:       106,485
+    Comment Lines:     13,512
+    Blank Lines:       12,698
+
+
+====================================================================================================
+DIRECTORY: Test (AllyAssistSeleniumTestCode)
+====================================================================================================
+
+  HTML:
+    Files:                 15
+    Total Lines:       36,947
+    Code Lines:        36,430
+    Comment Lines:          0
+    Blank Lines:          517
+
+  Python:
+    Files:                  6
+    Total Lines:          105
+    Code Lines:            55
+    Comment Lines:         22
+    Blank Lines:           28
+
+  Robot Framework:
+    Files:                 39
+    Total Lines:        4,556
+    Code Lines:         3,824
+    Comment Lines:        219
+    Blank Lines:          513
+
+  XML:
+    Files:                 11
+    Total Lines:       20,850
+    Code Lines:        20,843
+    Comment Lines:          0
+    Blank Lines:            7
+
+  --------------------------------------------------
+  DIRECTORY TOTAL:
+    Files:                 71
+    Total Lines:       62,458
+    Code Lines:        61,152
+    Comment Lines:        241
+    Blank Lines:        1,065
+
+
+====================================================================================================
+DIRECTORY: count_lines.js (count_lines.js)
+====================================================================================================
+
+  JavaScript:
+    Files:                  1
+    Total Lines:          335
+    Code Lines:           277
+    Comment Lines:         10
+    Blank Lines:           48
+
+  --------------------------------------------------
+  DIRECTORY TOTAL:
+    Files:                  1
+    Total Lines:          335
+    Code Lines:           277
+    Comment Lines:         10
+    Blank Lines:           48
+
+
+====================================================================================================
+DIRECTORY: count_lines.py (count_lines.py)
+====================================================================================================
+
+  Python:
+    Files:                  1
+    Total Lines:          311
+    Code Lines:           228
+    Comment Lines:         29
+    Blank Lines:           54
+
+  --------------------------------------------------
+  DIRECTORY TOTAL:
+    Files:                  1
+    Total Lines:          311
+    Code Lines:           228
+    Comment Lines:         29
+    Blank Lines:           54
+
+
+====================================================================================================
+SUMMARY BY LANGUAGE (Across All Directories)
+====================================================================================================
+
+  C#:
+    Files:                894
+    Total Lines:      473,085
+    Code Lines:       334,817
+    Comment Lines:     12,163
+    Blank Lines:      126,105
+
+  HTML:
+    Files:                211
+    Total Lines:       52,246
+    Code Lines:        50,122
+    Comment Lines:        674
+    Blank Lines:        1,450
+
+  JavaScript:
+    Files:                 11
+    Total Lines:          771
+    Code Lines:           666
+    Comment Lines:         34
+    Blank Lines:           71
+
+  JSON:
+    Files:                 38
+    Total Lines:       46,786
+    Code Lines:        46,747
+    Comment Lines:          0
+    Blank Lines:           39
+
+  Python:
+    Files:                  7
+    Total Lines:          416
+    Code Lines:           283
+    Comment Lines:         51
+    Blank Lines:           82
+
+  Robot Framework:
+    Files:                 39
+    Total Lines:        4,556
+    Code Lines:         3,824
+    Comment Lines:        219
+    Blank Lines:          513
+
+  SCSS:
+    Files:                188
+    Total Lines:       32,801
+    Code Lines:        26,395
+    Comment Lines:      1,020
+    Blank Lines:        5,386
+
+  TypeScript:
+    Files:                770
+    Total Lines:       80,064
+    Code Lines:        58,578
+    Comment Lines:     12,417
+    Blank Lines:        9,069
+
+  XML:
+    Files:                 11
+    Total Lines:       20,850
+    Code Lines:        20,843
+    Comment Lines:          0
+    Blank Lines:            7
+
+====================================================================================================
+OVERALL TOTALS
+====================================================================================================
+  Total Files:              2,169
+  Total Lines:            711,575
+  Total Code Lines:       542,275
+  Total Comment Lines:     26,578
+  Total Blank Lines:      142,722
+====================================================================================================

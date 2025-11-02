@@ -1,0 +1,1901 @@
+========================================================================================================================
+DETAILED C# CODE ANALYSIS BY DIRECTORY AND FILE
+========================================================================================================================
+
+========================================================================================================================
+DIRECTORY: AllyAssistBuilderInfrastructure
+Files: 892 | Total: 472,938 | Code: 335,093 | Comments: 11,781 | Blank: 126,064
+========================================================================================================================
+
+  ======================================================================================================================
+  DIRECTORY: AllyAssistBuilderInfrastructure-developv6
+  Files: 892 | Total: 472,938 | Code: 335,093 | Comments: 11,781 | Blank: 126,064
+  ======================================================================================================================
+
+    ====================================================================================================================
+    DIRECTORY: AllyAssistOneApp.API
+    Files: 31 | Total: 2,699 | Code: 2,084 | Comments: 231 | Blank: 384
+    ====================================================================================================================
+
+      FILES IN THIS DIRECTORY:
+      ---------------------------------------------------------------------------------------------------------------
+        Program.cs                                                   | Total:      260 | Code:      216 | Cmts:       13 | Blank:       31
+
+      ==================================================================================================================
+      DIRECTORY: Controllers
+      Files: 26 | Total: 2,293 | Code: 1,812 | Comments: 147 | Blank: 334
+      ==================================================================================================================
+
+        FILES IN THIS DIRECTORY:
+        -------------------------------------------------------------------------------------------------------------
+          AllyController.cs                                            | Total:      408 | Code:      333 | Cmts:       20 | Blank:       55
+          PulseCheckController.cs                                      | Total:      281 | Code:      228 | Cmts:       18 | Blank:       35
+          PulseCheckBuilderController.cs                               | Total:      146 | Code:      108 | Cmts:       24 | Blank:       14
+          OrganizationController.cs                                    | Total:      113 | Code:       88 | Cmts:        5 | Blank:       20
+          PulseCheckManagerController.cs                               | Total:      132 | Code:       86 | Cmts:       31 | Blank:       15
+          ProjectController.cs                                         | Total:      105 | Code:       83 | Cmts:        0 | Blank:       22
+          MasterDataController.cs                                      | Total:       99 | Code:       81 | Cmts:        5 | Blank:       13
+          TargetedResultsController.cs                                 | Total:       93 | Code:       76 | Cmts:        0 | Blank:       17
+          AllyMessageController.cs                                     | Total:       96 | Code:       69 | Cmts:       11 | Blank:       16
+          LeaderDashboardController.cs                                 | Total:       71 | Code:       64 | Cmts:        0 | Blank:        7
+          SocialMediaController.cs                                     | Total:       74 | Code:       60 | Cmts:        0 | Blank:       14
+          AllyGroupController.cs                                       | Total:       65 | Code:       51 | Cmts:        0 | Blank:       14
+          PortfolioController.cs                                       | Total:       72 | Code:       43 | Cmts:       18 | Blank:       11
+          PatientDashboardController.cs                                | Total:       50 | Code:       42 | Cmts:        0 | Blank:        8
+          BehaviorController.cs                                        | Total:       53 | Code:       41 | Cmts:        0 | Blank:       12
+          KeyPerformerGroupController.cs                               | Total:       50 | Code:       41 | Cmts:        0 | Blank:        9
+          FileController.cs                                            | Total:       46 | Code:       40 | Cmts:        1 | Blank:        5
+          ShiftHighlightController.cs                                  | Total:       42 | Code:       39 | Cmts:        0 | Blank:        3
+          UserActionController.cs                                      | Total:       47 | Code:       39 | Cmts:        0 | Blank:        8
+          AllyBehaviorController.cs                                    | Total:       38 | Code:       34 | Cmts:        0 | Blank:        4
+          LeaderToolsController.cs                                     | Total:       37 | Code:       30 | Cmts:        0 | Blank:        7
+          OverallHabitStrengthController.cs                            | Total:       35 | Code:       30 | Cmts:        0 | Blank:        5
+          VitalBehaviorController.cs                                   | Total:       36 | Code:       29 | Cmts:        0 | Blank:        7
+          TeamDashboardController.cs                                   | Total:       33 | Code:       28 | Cmts:        0 | Blank:        5
+          JobAidController.cs                                          | Total:       30 | Code:       26 | Cmts:        0 | Blank:        4
+          BaseController.cs                                            | Total:       41 | Code:       23 | Cmts:       14 | Blank:        4
+
+      ==================================================================================================================
+      DIRECTORY: DTO
+      Files: 3 | Total: 41 | Code: 34 | Comments: 1 | Blank: 6
+      ==================================================================================================================
+
+        FILES IN THIS DIRECTORY:
+        -------------------------------------------------------------------------------------------------------------
+          OrganizationJSONDTO.cs                                       | Total:       16 | Code:       13 | Cmts:        0 | Blank:        3
+          PulseCheckBuilderDTO.cs                                      | Total:       16 | Code:       13 | Cmts:        1 | Blank:        2
+          BulkUploadAllyDTO.cs                                         | Total:        9 | Code:        8 | Cmts:        0 | Blank:        1
+
+      ==================================================================================================================
+      DIRECTORY: Utilities
+      Files: 1 | Total: 105 | Code: 22 | Comments: 70 | Blank: 13
+      ==================================================================================================================
+
+        FILES IN THIS DIRECTORY:
+        -------------------------------------------------------------------------------------------------------------
+          ExcelToDataSetLoader.cs                                      | Total:      105 | Code:       22 | Cmts:       70 | Blank:       13
+
+    ====================================================================================================================
+    DIRECTORY: AllyAssistOneApp.Business
+    Files: 116 | Total: 20,538 | Code: 14,276 | Comments: 3,864 | Blank: 2,398
+    ====================================================================================================================
+
+      ==================================================================================================================
+      DIRECTORY: Implementation
+      Files: 58 | Total: 19,560 | Code: 13,440 | Comments: 3,855 | Blank: 2,265
+      ==================================================================================================================
+
+        ================================================================================================================
+        DIRECTORY: Access
+        Files: 3 | Total: 128 | Code: 114 | Comments: 0 | Blank: 14
+        ================================================================================================================
+
+          FILES IN THIS DIRECTORY:
+          -----------------------------------------------------------------------------------------------------------
+            UserActionService.cs                                         | Total:       56 | Code:       50 | Cmts:        0 | Blank:        6
+            AuthorizationService.cs                                      | Total:       43 | Code:       38 | Cmts:        0 | Blank:        5
+            RoleService.cs                                               | Total:       29 | Code:       26 | Cmts:        0 | Blank:        3
+
+        ================================================================================================================
+        DIRECTORY: Allies
+        Files: 11 | Total: 4,189 | Code: 2,868 | Comments: 741 | Blank: 580
+        ================================================================================================================
+
+          FILES IN THIS DIRECTORY:
+          -----------------------------------------------------------------------------------------------------------
+            AllyMessageService.cs                                        | Total:    1,728 | Code:      946 | Cmts:      545 | Blank:      237
+            ConnectedAllyService.cs                                      | Total:      934 | Code:      729 | Cmts:       77 | Blank:      128
+            AllyService.cs                                               | Total:      914 | Code:      670 | Cmts:      117 | Blank:      127
+            AllyPasscodeService.cs                                       | Total:      211 | Code:      179 | Cmts:        1 | Blank:       31
+            AllyRestPasswordRequestService.cs                            | Total:      140 | Code:      122 | Cmts:        0 | Blank:       18
+            AllyBehaviorService.cs                                       | Total:       67 | Code:       56 | Cmts:        1 | Blank:       10
+            AllySocialMediaService.cs                                    | Total:       64 | Code:       56 | Cmts:        0 | Blank:        8
+            AllyAllocationService.cs                                     | Total:       64 | Code:       54 | Cmts:        0 | Blank:       10
+            AllyRoleService.cs                                           | Total:       41 | Code:       36 | Cmts:        0 | Blank:        5
+            ConversationParticipantService.cs                            | Total:       13 | Code:       10 | Cmts:        0 | Blank:        3
+            ConversationService.cs                                       | Total:       13 | Code:       10 | Cmts:        0 | Blank:        3
+
+        ================================================================================================================
+        DIRECTORY: Behavior
+        Files: 6 | Total: 186 | Code: 164 | Comments: 0 | Blank: 22
+        ================================================================================================================
+
+          FILES IN THIS DIRECTORY:
+          -----------------------------------------------------------------------------------------------------------
+            BehaviorCategoryService.cs                                   | Total:       74 | Code:       66 | Cmts:        0 | Blank:        8
+            VitalBehaviorService.cs                                      | Total:       41 | Code:       35 | Cmts:        0 | Blank:        6
+            JobAidService.cs                                             | Total:       29 | Code:       27 | Cmts:        0 | Blank:        2
+            BehaviorMappingService.cs                                    | Total:       14 | Code:       12 | Cmts:        0 | Blank:        2
+            BehaviorSkillInfoService.cs                                  | Total:       14 | Code:       12 | Cmts:        0 | Blank:        2
+            BehaviorSkillService.cs                                      | Total:       14 | Code:       12 | Cmts:        0 | Blank:        2
+
+        ================================================================================================================
+        DIRECTORY: Culture
+        Files: 5 | Total: 168 | Code: 146 | Comments: 0 | Blank: 22
+        ================================================================================================================
+
+          FILES IN THIS DIRECTORY:
+          -----------------------------------------------------------------------------------------------------------
+            SocialMediaService.cs                                        | Total:       44 | Code:       38 | Cmts:        0 | Blank:        6
+            CountryService.cs                                            | Total:       31 | Code:       28 | Cmts:        0 | Blank:        3
+            LanguageService.cs                                           | Total:       32 | Code:       27 | Cmts:        0 | Blank:        5
+            TimeZoneService.cs                                           | Total:       31 | Code:       27 | Cmts:        0 | Blank:        4
+            RelationshipService.cs                                       | Total:       30 | Code:       26 | Cmts:        0 | Blank:        4
+
+        ================================================================================================================
+        DIRECTORY: Dashboard
+        Files: 3 | Total: 1,687 | Code: 1,445 | Comments: 62 | Blank: 180
+        ================================================================================================================
+
+          FILES IN THIS DIRECTORY:
+          -----------------------------------------------------------------------------------------------------------
+            PatientDashboardService.cs                                   | Total:      995 | Code:      832 | Cmts:       61 | Blank:      102
+            TeamDashboardService.cs                                      | Total:      381 | Code:      340 | Cmts:        1 | Blank:       40
+            LeaderDashboardService.cs                                    | Total:      311 | Code:      273 | Cmts:        0 | Blank:       38
+
+        ================================================================================================================
+        DIRECTORY: General
+        Files: 1 | Total: 42 | Code: 34 | Comments: 5 | Blank: 3
+        ================================================================================================================
+
+          FILES IN THIS DIRECTORY:
+          -----------------------------------------------------------------------------------------------------------
+            JwtManager.cs                                                | Total:       42 | Code:       34 | Cmts:        5 | Blank:        3
+
+        ================================================================================================================
+        DIRECTORY: Organization
+        Files: 4 | Total: 407 | Code: 296 | Comments: 56 | Blank: 55
+        ================================================================================================================
+
+          FILES IN THIS DIRECTORY:
+          -----------------------------------------------------------------------------------------------------------
+            OrganizationService.cs                                       | Total:      327 | Code:      229 | Cmts:       56 | Blank:       42
+            PortfolioService.cs                                          | Total:       43 | Code:       35 | Cmts:        0 | Blank:        8
+            IndustryService.cs                                           | Total:       23 | Code:       20 | Cmts:        0 | Blank:        3
+            OrganizationPortfolioService.cs                              | Total:       14 | Code:       12 | Cmts:        0 | Blank:        2
+
+        ================================================================================================================
+        DIRECTORY: Project
+        Files: 7 | Total: 668 | Code: 555 | Comments: 17 | Blank: 96
+        ================================================================================================================
+
+          FILES IN THIS DIRECTORY:
+          -----------------------------------------------------------------------------------------------------------
+            TargetedResultService.cs                                     | Total:      240 | Code:      194 | Cmts:        3 | Blank:       43
+            ProjectService.cs                                            | Total:      135 | Code:      104 | Cmts:       14 | Blank:       17
+            AllyGroupService.cs                                          | Total:      100 | Code:       87 | Cmts:        0 | Blank:       13
+            KeyPerformerGroupService.cs                                  | Total:       94 | Code:       84 | Cmts:        0 | Blank:       10
+            ProjectImageService.cs                                       | Total:       51 | Code:       44 | Cmts:        0 | Blank:        7
+            ProjectTypeService.cs                                        | Total:       34 | Code:       30 | Cmts:        0 | Blank:        4
+            BehaviorAllocationService.cs                                 | Total:       14 | Code:       12 | Cmts:        0 | Blank:        2
+
+        ================================================================================================================
+        DIRECTORY: PulseCheck
+        Files: 14 | Total: 10,796 | Code: 6,994 | Comments: 2,658 | Blank: 1,144
+        ================================================================================================================
+
+          FILES IN THIS DIRECTORY:
+          -----------------------------------------------------------------------------------------------------------
+            PulseCheckRequestService.cs                                  | Total:    5,981 | Code:    3,515 | Cmts:    1,827 | Blank:      639
+            PulseCheckManagerService.cs                                  | Total:    2,094 | Code:    1,519 | Cmts:      374 | Blank:      201
+            PulseCheckEventService.cs                                    | Total:    1,051 | Code:      776 | Cmts:      186 | Blank:       89
+            PulseCheckQuestionService.cs                                 | Total:      593 | Code:      438 | Cmts:       96 | Blank:       59
+            PulseCheckDefinitionService.cs                               | Total:      429 | Code:      332 | Cmts:       35 | Blank:       62
+            PulseCheckCommentService.cs                                  | Total:      181 | Code:       90 | Cmts:       68 | Blank:       23
+            PulseCheckResponseService.cs                                 | Total:      134 | Code:       90 | Cmts:       29 | Blank:       15
+            PulseCheckCategorizationService.cs                           | Total:      123 | Code:       56 | Cmts:       43 | Blank:       24
+            PulseCheckDraftRequestService.cs                             | Total:       60 | Code:       55 | Cmts:        0 | Blank:        5
+            PulseCheckAdditionalItemService.cs                           | Total:       39 | Code:       32 | Cmts:        0 | Blank:        7
+            LevelUpChatService.cs                                        | Total:       33 | Code:       28 | Cmts:        0 | Blank:        5
+            TopExpectationService.cs                                     | Total:       27 | Code:       23 | Cmts:        0 | Blank:        4
+            PulseCheckSenderReceiverGroupService.cs                      | Total:       30 | Code:       22 | Cmts:        0 | Blank:        8
+            PulseCheckCategorizationMappingService.cs                    | Total:       21 | Code:       18 | Cmts:        0 | Blank:        3
+
+        ================================================================================================================
+        DIRECTORY: Report
+        Files: 1 | Total: 875 | Code: 481 | Comments: 301 | Blank: 93
+        ================================================================================================================
+
+          FILES IN THIS DIRECTORY:
+          -----------------------------------------------------------------------------------------------------------
+            OverallHabitStrengthService.cs                               | Total:      875 | Code:      481 | Cmts:      301 | Blank:       93
+
+        ================================================================================================================
+        DIRECTORY: Shift
+        Files: 3 | Total: 414 | Code: 343 | Comments: 15 | Blank: 56
+        ================================================================================================================
+
+          FILES IN THIS DIRECTORY:
+          -----------------------------------------------------------------------------------------------------------
+            ShiftHighlightsService.cs                                    | Total:      371 | Code:      306 | Cmts:       15 | Blank:       50
+            ShiftDetailsService.cs                                       | Total:       22 | Code:       19 | Cmts:        0 | Blank:        3
+            ShiftService.cs                                              | Total:       21 | Code:       18 | Cmts:        0 | Blank:        3
+
+      ==================================================================================================================
+      DIRECTORY: Interface
+      Files: 58 | Total: 978 | Code: 836 | Comments: 9 | Blank: 133
+      ==================================================================================================================
+
+        ================================================================================================================
+        DIRECTORY: Access
+        Files: 3 | Total: 47 | Code: 41 | Comments: 0 | Blank: 6
+        ================================================================================================================
+
+          FILES IN THIS DIRECTORY:
+          -----------------------------------------------------------------------------------------------------------
+            IAuthorizationService.cs                                     | Total:       18 | Code:       16 | Cmts:        0 | Blank:        2
+            IRoleService.cs                                              | Total:       16 | Code:       14 | Cmts:        0 | Blank:        2
+            IUserActionService.cs                                        | Total:       13 | Code:       11 | Cmts:        0 | Blank:        2
+
+        ================================================================================================================
+        DIRECTORY: Allies
+        Files: 11 | Total: 208 | Code: 180 | Comments: 3 | Blank: 25
+        ================================================================================================================
+
+          FILES IN THIS DIRECTORY:
+          -----------------------------------------------------------------------------------------------------------
+            IAllyService.cs                                              | Total:       39 | Code:       35 | Cmts:        0 | Blank:        4
+            IAllyMessageService.cs                                       | Total:       25 | Code:       21 | Cmts:        2 | Blank:        2
+            IAllyAllocationService.cs                                    | Total:       21 | Code:       19 | Cmts:        0 | Blank:        2
+            IConnectedAllyService.cs                                     | Total:       22 | Code:       19 | Cmts:        1 | Blank:        2
+            IAllyRestPasswordRequestService.cs                           | Total:       19 | Code:       17 | Cmts:        0 | Blank:        2
+            IAllySocialMediaService.cs                                   | Total:       19 | Code:       17 | Cmts:        0 | Blank:        2
+            IAllyBehaviorService.cs                                      | Total:       17 | Code:       15 | Cmts:        0 | Blank:        2
+            IAllyRoleService.cs                                          | Total:       18 | Code:       15 | Cmts:        0 | Blank:        3
+            IAllyPasscodeService.cs                                      | Total:       12 | Code:       10 | Cmts:        0 | Blank:        2
+            IConversationPartcipantService.cs                            | Total:        8 | Code:        6 | Cmts:        0 | Blank:        2
+            IConversationService.cs                                      | Total:        8 | Code:        6 | Cmts:        0 | Blank:        2
+
+        ================================================================================================================
+        DIRECTORY: Behavior
+        Files: 6 | Total: 83 | Code: 70 | Comments: 0 | Blank: 13
+        ================================================================================================================
+
+          FILES IN THIS DIRECTORY:
+          -----------------------------------------------------------------------------------------------------------
+            IJobAidService.cs                                            | Total:       16 | Code:       14 | Cmts:        0 | Blank:        2
+            IBehaviorCategoryService.cs                                  | Total:       16 | Code:       13 | Cmts:        0 | Blank:        3
+            IBehaviorMappingService.cs                                   | Total:       13 | Code:       11 | Cmts:        0 | Blank:        2
+            IBehaviorSkillInfoService.cs                                 | Total:       13 | Code:       11 | Cmts:        0 | Blank:        2
+            IBehaviorSkillService.cs                                     | Total:       13 | Code:       11 | Cmts:        0 | Blank:        2
+            IVitalBehaviorService.cs                                     | Total:       12 | Code:       10 | Cmts:        0 | Blank:        2
+
+        ================================================================================================================
+        DIRECTORY: Culture
+        Files: 5 | Total: 67 | Code: 57 | Comments: 0 | Blank: 10
+        ================================================================================================================
+
+          FILES IN THIS DIRECTORY:
+          -----------------------------------------------------------------------------------------------------------
+            IRelationshipService.cs                                      | Total:       17 | Code:       15 | Cmts:        0 | Blank:        2
+            ISocialMediaService.cs                                       | Total:       17 | Code:       15 | Cmts:        0 | Blank:        2
+            ICountryService.cs                                           | Total:       11 | Code:        9 | Cmts:        0 | Blank:        2
+            ILanguageService.cs                                          | Total:       11 | Code:        9 | Cmts:        0 | Blank:        2
+            ITimeZoneService.cs                                          | Total:       11 | Code:        9 | Cmts:        0 | Blank:        2
+
+        ================================================================================================================
+        DIRECTORY: Dashboard
+        Files: 3 | Total: 63 | Code: 57 | Comments: 0 | Blank: 6
+        ================================================================================================================
+
+          FILES IN THIS DIRECTORY:
+          -----------------------------------------------------------------------------------------------------------
+            ILeaderDashboardService.cs                                   | Total:       32 | Code:       30 | Cmts:        0 | Blank:        2
+            IPatientDashboardService.cs                                  | Total:       19 | Code:       17 | Cmts:        0 | Blank:        2
+            ITeamDashboardService.cs                                     | Total:       12 | Code:       10 | Cmts:        0 | Blank:        2
+
+        ================================================================================================================
+        DIRECTORY: General
+        Files: 1 | Total: 10 | Code: 8 | Comments: 0 | Blank: 2
+        ================================================================================================================
+
+          FILES IN THIS DIRECTORY:
+          -----------------------------------------------------------------------------------------------------------
+            IJwtManager.cs                                               | Total:       10 | Code:        8 | Cmts:        0 | Blank:        2
+
+        ================================================================================================================
+        DIRECTORY: Organization
+        Files: 4 | Total: 59 | Code: 50 | Comments: 0 | Blank: 9
+        ================================================================================================================
+
+          FILES IN THIS DIRECTORY:
+          -----------------------------------------------------------------------------------------------------------
+            IOrganizationService.cs                                      | Total:       20 | Code:       17 | Cmts:        0 | Blank:        3
+            IPortfolioService.cs                                         | Total:       15 | Code:       13 | Cmts:        0 | Blank:        2
+            IOrganizationPortfolioService.cs                             | Total:       13 | Code:       11 | Cmts:        0 | Blank:        2
+            IIndustryService.cs                                          | Total:       11 | Code:        9 | Cmts:        0 | Blank:        2
+
+        ================================================================================================================
+        DIRECTORY: Project
+        Files: 7 | Total: 109 | Code: 94 | Comments: 0 | Blank: 15
+        ================================================================================================================
+
+          FILES IN THIS DIRECTORY:
+          -----------------------------------------------------------------------------------------------------------
+            IProjectService.cs                                           | Total:       18 | Code:       16 | Cmts:        0 | Blank:        2
+            ITargetedResultService.cs                                    | Total:       18 | Code:       16 | Cmts:        0 | Blank:        2
+            IAllyGroupService.cs                                         | Total:       17 | Code:       15 | Cmts:        0 | Blank:        2
+            IProjectImageService.cs                                      | Total:       16 | Code:       14 | Cmts:        0 | Blank:        2
+            IKeyPerformerGroupService.cs                                 | Total:       16 | Code:       13 | Cmts:        0 | Blank:        3
+            IBehaviorAllocationService.cs                                | Total:       13 | Code:       11 | Cmts:        0 | Blank:        2
+            IProjectTypeService.cs                                       | Total:       11 | Code:        9 | Cmts:        0 | Blank:        2
+
+        ================================================================================================================
+        DIRECTORY: PulseCheck
+        Files: 14 | Total: 276 | Code: 231 | Comments: 6 | Blank: 39
+        ================================================================================================================
+
+          FILES IN THIS DIRECTORY:
+          -----------------------------------------------------------------------------------------------------------
+            IPulseCheckRequestService.cs                                 | Total:       47 | Code:       33 | Cmts:        4 | Blank:       10
+            IPulseCheckManagerService.cs                                 | Total:       33 | Code:       28 | Cmts:        2 | Blank:        3
+            IPulseCheckDefinitionService.cs                              | Total:       20 | Code:       18 | Cmts:        0 | Blank:        2
+            IPulseCheckQuestionService.cs                                | Total:       20 | Code:       18 | Cmts:        0 | Blank:        2
+            IPulseCheckDraftRequestService.cs                            | Total:       18 | Code:       16 | Cmts:        0 | Blank:        2
+            IPulseCheckAdditionalItemService.cs                          | Total:       18 | Code:       15 | Cmts:        0 | Blank:        3
+            IPulseCheckCommentService.cs                                 | Total:       17 | Code:       15 | Cmts:        0 | Blank:        2
+            IPulseCheckEventService.cs                                   | Total:       17 | Code:       15 | Cmts:        0 | Blank:        2
+            ILevelUpChatService.cs                                       | Total:       16 | Code:       14 | Cmts:        0 | Blank:        2
+            IPulseCheckResponseService.cs                                | Total:       16 | Code:       14 | Cmts:        0 | Blank:        2
+            IPulseCheckSenderReceiverGroupService.cs                     | Total:       17 | Code:       14 | Cmts:        0 | Blank:        3
+            ITopExpectationService.cs                                    | Total:       15 | Code:       13 | Cmts:        0 | Blank:        2
+            IPulseCheckCategorizationService.cs                          | Total:       12 | Code:       10 | Cmts:        0 | Blank:        2
+            IPulseCheckCategorizationMappingService.cs                   | Total:       10 | Code:        8 | Cmts:        0 | Blank:        2
+
+        ================================================================================================================
+        DIRECTORY: Report
+        Files: 1 | Total: 15 | Code: 13 | Comments: 0 | Blank: 2
+        ================================================================================================================
+
+          FILES IN THIS DIRECTORY:
+          -----------------------------------------------------------------------------------------------------------
+            IOverallHabitStrengthService.cs                              | Total:       15 | Code:       13 | Cmts:        0 | Blank:        2
+
+        ================================================================================================================
+        DIRECTORY: Shift
+        Files: 3 | Total: 41 | Code: 35 | Comments: 0 | Blank: 6
+        ================================================================================================================
+
+          FILES IN THIS DIRECTORY:
+          -----------------------------------------------------------------------------------------------------------
+            IShiftHighlightsService.cs                                   | Total:       15 | Code:       13 | Cmts:        0 | Blank:        2
+            IShiftDetailsService.cs                                      | Total:       13 | Code:       11 | Cmts:        0 | Blank:        2
+            IShiftService.cs                                             | Total:       13 | Code:       11 | Cmts:        0 | Blank:        2
+
+    ====================================================================================================================
+    DIRECTORY: AllyAssistOneApp.Communication
+    Files: 16 | Total: 873 | Code: 601 | Comments: 194 | Blank: 78
+    ====================================================================================================================
+
+      ==================================================================================================================
+      DIRECTORY: EmailNotifications
+      Files: 2 | Total: 83 | Code: 7 | Comments: 72 | Blank: 4
+      ==================================================================================================================
+
+        FILES IN THIS DIRECTORY:
+        -------------------------------------------------------------------------------------------------------------
+          TwilioEmailService.cs                                        | Total:       74 | Code:        7 | Cmts:       65 | Blank:        2
+          ITwilioEmailService.cs                                       | Total:        9 | Code:        0 | Cmts:        7 | Blank:        2
+
+      ==================================================================================================================
+      DIRECTORY: Hub
+      Files: 5 | Total: 155 | Code: 128 | Comments: 14 | Blank: 13
+      ==================================================================================================================
+
+        FILES IN THIS DIRECTORY:
+        -------------------------------------------------------------------------------------------------------------
+          UserConnectionManager.cs                                     | Total:       48 | Code:       45 | Cmts:        1 | Blank:        2
+          PulseCheckPushNotificationHub.cs                             | Total:       55 | Code:       35 | Cmts:       13 | Blank:        7
+          Notification.cs                                              | Total:       28 | Code:       26 | Cmts:        0 | Blank:        2
+          IUserConnectionManager.cs                                    | Total:       16 | Code:       14 | Cmts:        0 | Blank:        2
+          INotificationHub.cs                                          | Total:        8 | Code:        8 | Cmts:        0 | Blank:        0
+
+      ==================================================================================================================
+      DIRECTORY: Notifications
+      Files: 7 | Total: 516 | Code: 447 | Comments: 10 | Blank: 59
+      ==================================================================================================================
+
+        FILES IN THIS DIRECTORY:
+        -------------------------------------------------------------------------------------------------------------
+          NotificationsService.cs                                      | Total:      245 | Code:      213 | Cmts:        9 | Blank:       23
+          SMSNotification.cs                                           | Total:      118 | Code:      104 | Cmts:        0 | Blank:       14
+          EmailNotification.cs                                         | Total:       61 | Code:       53 | Cmts:        0 | Blank:        8
+          NotificationManager.cs                                       | Total:       31 | Code:       26 | Cmts:        0 | Blank:        5
+          INotificationsService.cs                                     | Total:       23 | Code:       20 | Cmts:        0 | Blank:        3
+          INotification.cs                                             | Total:       22 | Code:       17 | Cmts:        1 | Blank:        4
+          INotificationManager.cs                                      | Total:       16 | Code:       14 | Cmts:        0 | Blank:        2
+
+      ==================================================================================================================
+      DIRECTORY: TwilioMessaging
+      Files: 2 | Total: 119 | Code: 19 | Comments: 98 | Blank: 2
+      ==================================================================================================================
+
+        FILES IN THIS DIRECTORY:
+        -------------------------------------------------------------------------------------------------------------
+          TwilioMessagingService.cs                                    | Total:      100 | Code:       12 | Cmts:       87 | Blank:        1
+          ITwilioMessagingService.cs                                   | Total:       19 | Code:        7 | Cmts:       11 | Blank:        1
+
+    ====================================================================================================================
+    DIRECTORY: AllyAssistOneApp.DTO
+    Files: 137 | Total: 3,997 | Code: 3,104 | Comments: 350 | Blank: 543
+    ====================================================================================================================
+
+      ==================================================================================================================
+      DIRECTORY: Access
+      Files: 5 | Total: 97 | Code: 74 | Comments: 9 | Blank: 14
+      ==================================================================================================================
+
+        FILES IN THIS DIRECTORY:
+        -------------------------------------------------------------------------------------------------------------
+          UserActionMappingDTO.cs                                      | Total:       18 | Code:       16 | Cmts:        0 | Blank:        2
+          OrganizationAccessInfoDTO.cs                                 | Total:       17 | Code:       15 | Cmts:        0 | Blank:        2
+          UserActionDTO.cs                                             | Total:       30 | Code:       15 | Cmts:        9 | Blank:        6
+          AllyOrganizationAccessDTO.cs                                 | Total:       16 | Code:       14 | Cmts:        0 | Blank:        2
+          RoleDTO.cs                                                   | Total:       16 | Code:       14 | Cmts:        0 | Blank:        2
+
+      ==================================================================================================================
+      DIRECTORY: Allies
+      Files: 48 | Total: 1,348 | Code: 1,016 | Comments: 177 | Blank: 155
+      ==================================================================================================================
+
+        FILES IN THIS DIRECTORY:
+        -------------------------------------------------------------------------------------------------------------
+          AllyProfileWithNetworkAlliesDTO.cs                           | Total:       68 | Code:       64 | Cmts:        0 | Blank:        4
+          AllyMessageDTO.cs                                            | Total:       63 | Code:       57 | Cmts:        2 | Blank:        4
+          AllyDTO.cs                                                   | Total:       38 | Code:       36 | Cmts:        1 | Blank:        1
+          AllyUploadDTO.cs                                             | Total:       39 | Code:       35 | Cmts:        0 | Blank:        4
+          AllyProfileDTO.cs                                            | Total:       35 | Code:       32 | Cmts:        0 | Blank:        3
+          AllyProfileWithInteractedAlliesDTO.cs                        | Total:       35 | Code:       32 | Cmts:        0 | Blank:        3
+          AllyBehaviorDTO.cs                                           | Total:      152 | Code:       31 | Cmts:       99 | Blank:       22
+          AllyLevelUpDTO.cs                                            | Total:      101 | Code:       31 | Cmts:       52 | Blank:       18
+          ConnectedAllyDTO.cs                                          | Total:       33 | Code:       29 | Cmts:        1 | Blank:        3
+          AllyLoginDetailsDTO.cs                                       | Total:       30 | Code:       27 | Cmts:        0 | Blank:        3
+          AllyLookupWithDesignatedCaregiverDTO.cs                      | Total:       29 | Code:       27 | Cmts:        0 | Blank:        2
+          AllyAllocationDTO.cs                                         | Total:       27 | Code:       26 | Cmts:        0 | Blank:        1
+          AllyWithAssociateAllySearchDTO.cs                            | Total:       25 | Code:       23 | Cmts:        0 | Blank:        2
+          AssociateAllySearchDTO.cs                                    | Total:       26 | Code:       23 | Cmts:        0 | Blank:        3
+          AllyLoginDTO.cs                                              | Total:       25 | Code:       22 | Cmts:        0 | Blank:        3
+          ConnectedPatientDTO.cs                                       | Total:       24 | Code:       22 | Cmts:        0 | Blank:        2
+          AllyBuilderDTO.cs                                            | Total:       23 | Code:       20 | Cmts:        0 | Blank:        3
+          AllyProfileNotificationDTO.cs                                | Total:       22 | Code:       20 | Cmts:        0 | Blank:        2
+          ConnectedAllyGroupDetailDTO.cs                               | Total:       22 | Code:       20 | Cmts:        0 | Blank:        2
+          RelatedAllyGroupDTO.cs                                       | Total:       42 | Code:       20 | Cmts:       16 | Blank:        6
+          AllyBulkUploadResponseDTO.cs                                 | Total:       21 | Code:       19 | Cmts:        0 | Blank:        2
+          AllySessionDTO.cs                                            | Total:       20 | Code:       19 | Cmts:        0 | Blank:        1
+          InteractedAllyDTO.cs                                         | Total:       24 | Code:       19 | Cmts:        0 | Blank:        5
+          MyVitalBehaviorDTO.cs                                        | Total:       25 | Code:       19 | Cmts:        0 | Blank:        6
+          PulseCheckReciverSMSDTO.cs                                   | Total:       29 | Code:       19 | Cmts:        6 | Blank:        4
+          AllyLookupDTO.cs                                             | Total:       20 | Code:       18 | Cmts:        0 | Blank:        2
+          AllyNetworkDTO.cs                                            | Total:       20 | Code:       18 | Cmts:        0 | Blank:        2
+          AllySocialMediaDTO.cs                                        | Total:       21 | Code:       18 | Cmts:        0 | Blank:        3
+          ChangePasswordDTO.cs                                         | Total:       21 | Code:       18 | Cmts:        0 | Blank:        3
+          AllyImageDTO.cs                                              | Total:       20 | Code:       17 | Cmts:        0 | Blank:        3
+          AllyRoleDTO.cs                                               | Total:       18 | Code:       16 | Cmts:        0 | Blank:        2
+          ConnectedAllyGroupDTO.cs                                     | Total:       18 | Code:       16 | Cmts:        0 | Blank:        2
+          AllyNameDTO.cs                                               | Total:       17 | Code:       15 | Cmts:        0 | Blank:        2
+          AllyPreferredCommunicationMethodDTO.cs                       | Total:       17 | Code:       15 | Cmts:        0 | Blank:        2
+          AllyTileDTO.cs                                               | Total:       17 | Code:       15 | Cmts:        0 | Blank:        2
+          ResetPasswordDTO.cs                                          | Total:       18 | Code:       15 | Cmts:        0 | Blank:        3
+          AllyIDProjectIDListDTO.cs                                    | Total:       16 | Code:       14 | Cmts:        0 | Blank:        2
+          AllyRestPasswordRequestDTO.cs                                | Total:       18 | Code:       14 | Cmts:        0 | Blank:        4
+          AllyLookupWithDesignatedCaregiverListDTO.cs                  | Total:       15 | Code:       13 | Cmts:        0 | Blank:        2
+          AllyOrganizationDTO.cs                                       | Total:       15 | Code:       13 | Cmts:        0 | Blank:        2
+          AllyProfilesForOnDemandListDTO.cs                            | Total:       15 | Code:       13 | Cmts:        0 | Blank:        2
+          BehaviorCardRequestDTO.cs                                    | Total:       15 | Code:       13 | Cmts:        0 | Blank:        2
+          AllyListDTO.cs                                               | Total:       13 | Code:       12 | Cmts:        0 | Blank:        1
+          AllyWelcomeEmailDTO.cs                                       | Total:       12 | Code:       12 | Cmts:        0 | Blank:        0
+          ForgotPasswordDTO.cs                                         | Total:       14 | Code:       12 | Cmts:        0 | Blank:        2
+          AllyByOrgIdDTO.cs                                            | Total:       12 | Code:       10 | Cmts:        0 | Blank:        2
+          AllyNetworkResultDTO.cs                                      | Total:        9 | Code:        9 | Cmts:        0 | Blank:        0
+          LoginDTO.cs                                                  | Total:        9 | Code:        8 | Cmts:        0 | Blank:        1
+
+      ==================================================================================================================
+      DIRECTORY: Behavior
+      Files: 4 | Total: 122 | Code: 89 | Comments: 14 | Blank: 19
+      ==================================================================================================================
+
+        FILES IN THIS DIRECTORY:
+        -------------------------------------------------------------------------------------------------------------
+          BehaviorCategoryDTO.cs                                       | Total:       34 | Code:       32 | Cmts:        0 | Blank:        2
+          VitalBehaviorDTO.cs                                          | Total:       44 | Code:       30 | Cmts:        5 | Blank:        9
+          JobAidDTO.cs                                                 | Total:       29 | Code:       15 | Cmts:        9 | Blank:        5
+          BehaviorCardsDTO.cs                                          | Total:       15 | Code:       12 | Cmts:        0 | Blank:        3
+
+      ==================================================================================================================
+      DIRECTORY: Culture
+      Files: 5 | Total: 86 | Code: 72 | Comments: 0 | Blank: 14
+      ==================================================================================================================
+
+        FILES IN THIS DIRECTORY:
+        -------------------------------------------------------------------------------------------------------------
+          SocialMediaDTO.cs                                            | Total:       22 | Code:       20 | Cmts:        0 | Blank:        2
+          CountryDTO.cs                                                | Total:       16 | Code:       13 | Cmts:        0 | Blank:        3
+          LanguageDTO.cs                                               | Total:       17 | Code:       13 | Cmts:        0 | Blank:        4
+          RelationshipDTO.cs                                           | Total:       15 | Code:       13 | Cmts:        0 | Blank:        2
+          TimeZoneDTO.cs                                               | Total:       16 | Code:       13 | Cmts:        0 | Blank:        3
+
+      ==================================================================================================================
+      DIRECTORY: Dashboard
+      Files: 6 | Total: 418 | Code: 304 | Comments: 23 | Blank: 91
+      ==================================================================================================================
+
+        FILES IN THIS DIRECTORY:
+        -------------------------------------------------------------------------------------------------------------
+          TeamDashboardDTO.cs                                          | Total:      107 | Code:       95 | Cmts:        0 | Blank:       12
+          PatientDashboardExtendedDTO.cs                               | Total:      128 | Code:       71 | Cmts:       19 | Blank:       38
+          AllyDashboardDTO.cs                                          | Total:       69 | Code:       59 | Cmts:        0 | Blank:       10
+          LeaderDashboardDTO.cs                                        | Total:       61 | Code:       36 | Cmts:        4 | Blank:       21
+          HowWellDataDTO.cs                                            | Total:       31 | Code:       23 | Cmts:        0 | Blank:        8
+          PatientDashboardDTO.cs                                       | Total:       22 | Code:       20 | Cmts:        0 | Blank:        2
+
+      ==================================================================================================================
+      DIRECTORY: General
+      Files: 3 | Total: 47 | Code: 41 | Comments: 0 | Blank: 6
+      ==================================================================================================================
+
+        FILES IN THIS DIRECTORY:
+        -------------------------------------------------------------------------------------------------------------
+          PaginatedDTO.cs                                              | Total:       19 | Code:       16 | Cmts:        0 | Blank:        3
+          DropdownDTO.cs                                               | Total:       15 | Code:       13 | Cmts:        0 | Blank:        2
+          PaginationDTO.cs                                             | Total:       13 | Code:       12 | Cmts:        0 | Blank:        1
+
+      ==================================================================================================================
+      DIRECTORY: Notifications
+      Files: 1 | Total: 44 | Code: 38 | Comments: 0 | Blank: 6
+      ==================================================================================================================
+
+        FILES IN THIS DIRECTORY:
+        -------------------------------------------------------------------------------------------------------------
+          NotificationsDTO.cs                                          | Total:       44 | Code:       38 | Cmts:        0 | Blank:        6
+
+      ==================================================================================================================
+      DIRECTORY: Organization
+      Files: 5 | Total: 236 | Code: 144 | Comments: 64 | Blank: 28
+      ==================================================================================================================
+
+        FILES IN THIS DIRECTORY:
+        -------------------------------------------------------------------------------------------------------------
+          OrganizationDTO.cs                                           | Total:      156 | Code:       75 | Cmts:       64 | Blank:       17
+          OrganizationResultsDTO.cs                                    | Total:       28 | Code:       27 | Cmts:        0 | Blank:        1
+          PortfolioDTO.cs                                              | Total:       21 | Code:       15 | Cmts:        0 | Blank:        6
+          OrganizationPortfolioDTO.cs                                  | Total:       16 | Code:       14 | Cmts:        0 | Blank:        2
+          IndustryDTO.cs                                               | Total:       15 | Code:       13 | Cmts:        0 | Blank:        2
+
+      ==================================================================================================================
+      DIRECTORY: Project
+      Files: 9 | Total: 250 | Code: 210 | Comments: 0 | Blank: 40
+      ==================================================================================================================
+
+        FILES IN THIS DIRECTORY:
+        -------------------------------------------------------------------------------------------------------------
+          TargetedResultDTO.cs                                         | Total:       66 | Code:       58 | Cmts:        0 | Blank:        8
+          ProjectDTO.cs                                                | Total:       33 | Code:       29 | Cmts:        0 | Blank:        4
+          TargetedResultDataDTO.cs                                     | Total:       38 | Code:       28 | Cmts:        0 | Blank:       10
+          AllyGroupAndKPGDTO.cs                                        | Total:       23 | Code:       20 | Cmts:        0 | Blank:        3
+          BehaviorAllocationDTO.cs                                     | Total:       28 | Code:       20 | Cmts:        0 | Blank:        8
+          KeyPerformerGroupDTO.cs                                      | Total:       20 | Code:       18 | Cmts:        0 | Blank:        2
+          AllyGroupDTO.cs                                              | Total:       19 | Code:       17 | Cmts:        0 | Blank:        2
+          ProjectImageDTO.cs                                           | Total:       14 | Code:       12 | Cmts:        0 | Blank:        2
+          ProjectTypeDTO.cs                                            | Total:        9 | Code:        8 | Cmts:        0 | Blank:        1
+
+      ==================================================================================================================
+      DIRECTORY: PulseCheck
+      Files: 35 | Total: 959 | Code: 832 | Comments: 10 | Blank: 117
+      ==================================================================================================================
+
+        FILES IN THIS DIRECTORY:
+        -------------------------------------------------------------------------------------------------------------
+          PulseCheckRequestDTO.cs                                      | Total:       88 | Code:       68 | Cmts:        7 | Blank:       13
+          PulseCheckVisitResponseDTO.cs                                | Total:       71 | Code:       58 | Cmts:        0 | Blank:       13
+          PulseCheckManagerDetailsDTO.cs                               | Total:       44 | Code:       42 | Cmts:        0 | Blank:        2
+          PulseCheckDefinitionDTO.cs                                   | Total:       39 | Code:       36 | Cmts:        0 | Blank:        3
+          PulseCheckManagerEventDTO.cs                                 | Total:       40 | Code:       34 | Cmts:        1 | Blank:        5
+          PulseCheckManagerDTO.cs                                      | Total:       42 | Code:       33 | Cmts:        0 | Blank:        9
+          PCMgrFiltersPaginationDTO.cs                                 | Total:       34 | Code:       31 | Cmts:        0 | Blank:        3
+          PulseCheckQuestionDTO.cs                                     | Total:       31 | Code:       29 | Cmts:        0 | Blank:        2
+          ExperiencePulseCheckVisitDetailsDTO.cs                       | Total:       30 | Code:       28 | Cmts:        0 | Blank:        2
+          PulsecheckEmailDTO.cs                                        | Total:       29 | Code:       27 | Cmts:        0 | Blank:        2
+          PulseCheckViewDTO.cs                                         | Total:       29 | Code:       26 | Cmts:        0 | Blank:        3
+          PulseCheckNotificationDTO.cs                                 | Total:       27 | Code:       25 | Cmts:        0 | Blank:        2
+          PulseCheckCommentDTO.cs                                      | Total:       27 | Code:       24 | Cmts:        0 | Blank:        3
+          PulseCheckResponseDTO.cs                                     | Total:       27 | Code:       24 | Cmts:        0 | Blank:        3
+          OnDemandPulseCheckRequestDTO.cs                              | Total:       24 | Code:       23 | Cmts:        0 | Blank:        1
+          PulseCheckDraftRequestDTO.cs                                 | Total:       31 | Code:       22 | Cmts:        0 | Blank:        9
+          ManagerFilterLabelDropDown.cs                                | Total:       24 | Code:       20 | Cmts:        0 | Blank:        4
+          PreWeekendPulseCheckRequestDTO.cs                            | Total:       23 | Code:       20 | Cmts:        0 | Blank:        3
+          AvailablePulseCheckDTO.cs                                    | Total:       21 | Code:       19 | Cmts:        0 | Blank:        2
+          PulseCheckCategorizationDTO.cs                               | Total:       21 | Code:       18 | Cmts:        0 | Blank:        3
+          PulseCheckAdditionalItemDTO.cs                               | Total:       19 | Code:       17 | Cmts:        0 | Blank:        2
+          PulseCheckPreWeekndDTO.cs                                    | Total:       19 | Code:       17 | Cmts:        0 | Blank:        2
+          PulseCheckSenderReceiverGroupDTO.cs                          | Total:       20 | Code:       17 | Cmts:        1 | Blank:        2
+          CreatedPulseCheckDTO.cs                                      | Total:       18 | Code:       16 | Cmts:        0 | Blank:        2
+          PulseCheckDraftDTO.cs                                        | Total:       18 | Code:       16 | Cmts:        0 | Blank:        2
+          PulseCheckResponseViewLogsDTO.cs                             | Total:       18 | Code:       16 | Cmts:        0 | Blank:        2
+          TopExpectationDTO.cs                                         | Total:       19 | Code:       16 | Cmts:        0 | Blank:        3
+          OnDemandPulseCheckResponseDTO.cs                             | Total:       17 | Code:       15 | Cmts:        0 | Blank:        2
+          PulseCheckDetailDTO.cs                                       | Total:       18 | Code:       15 | Cmts:        1 | Blank:        2
+          PulseCheckQuestionsAnonymousFeedbackDTO.cs                   | Total:       17 | Code:       15 | Cmts:        0 | Blank:        2
+          ReceiverAllyDTO.cs                                           | Total:       17 | Code:       15 | Cmts:        0 | Blank:        2
+          ManagerFilterDropDown.cs                                     | Total:       16 | Code:       14 | Cmts:        0 | Blank:        2
+          ExpectationResendMessageDTO.cs                               | Total:       15 | Code:       13 | Cmts:        0 | Blank:        2
+          WeekendPulseCheckRequestDTO.cs                               | Total:       15 | Code:       13 | Cmts:        0 | Blank:        2
+          PulseCheckCategorizationMappingDTO.cs                        | Total:       11 | Code:       10 | Cmts:        0 | Blank:        1
+
+      ==================================================================================================================
+      DIRECTORY: Report
+      Files: 3 | Total: 180 | Code: 101 | Comments: 51 | Blank: 28
+      ==================================================================================================================
+
+        FILES IN THIS DIRECTORY:
+        -------------------------------------------------------------------------------------------------------------
+          OverallHabitStrengthVitalBehavior.cs                         | Total:      107 | Code:       57 | Cmts:       36 | Blank:       14
+          OverallHabitStrengthBehaviorCategory.cs                      | Total:       51 | Code:       27 | Cmts:       15 | Blank:        9
+          OverallHabitStrengthData.cs                                  | Total:       22 | Code:       17 | Cmts:        0 | Blank:        5
+
+      ==================================================================================================================
+      DIRECTORY: Shift
+      Files: 13 | Total: 210 | Code: 183 | Comments: 2 | Blank: 25
+      ==================================================================================================================
+
+        FILES IN THIS DIRECTORY:
+        -------------------------------------------------------------------------------------------------------------
+          ShiftHighlightDataKPGs.cs                                    | Total:       31 | Code:       27 | Cmts:        1 | Blank:        3
+          ShiftDTO.cs                                                  | Total:       25 | Code:       22 | Cmts:        0 | Blank:        3
+          PatientDTO.cs                                                | Total:       18 | Code:       16 | Cmts:        0 | Blank:        2
+          PulseCheckCompletionDTO.cs                                   | Total:       17 | Code:       14 | Cmts:        0 | Blank:        3
+          ShiftHighlightData.cs                                        | Total:       17 | Code:       14 | Cmts:        1 | Blank:        2
+          FeltValuedDataDTO.cs                                         | Total:       15 | Code:       13 | Cmts:        0 | Blank:        2
+          PatientExpectationsMetDTO.cs                                 | Total:       15 | Code:       13 | Cmts:        0 | Blank:        2
+          ShiftHighlightsLeaderDTO.cs                                  | Total:       14 | Code:       12 | Cmts:        0 | Blank:        2
+          CareTeamExpecationsMetDTO.cs                                 | Total:       13 | Code:       11 | Cmts:        0 | Blank:        2
+          ShiftHighlightsDTO.cs                                        | Total:       11 | Code:       11 | Cmts:        0 | Blank:        0
+          KPGDTO.cs                                                    | Total:       12 | Code:       10 | Cmts:        0 | Blank:        2
+          ShiftDetailsDTO.cs                                           | Total:       11 | Code:       10 | Cmts:        0 | Blank:        1
+          ShiftInfoDTO.cs                                              | Total:       11 | Code:       10 | Cmts:        0 | Blank:        1
+
+    ====================================================================================================================
+    DIRECTORY: AllyAssistOneApp.Entity
+    Files: 311 | Total: 389,518 | Code: 272,804 | Comments: 1,162 | Blank: 115,552
+    ====================================================================================================================
+
+      FILES IN THIS DIRECTORY:
+      ---------------------------------------------------------------------------------------------------------------
+        AppDbContext.cs                                              | Total:      149 | Code:      139 | Cmts:        1 | Blank:        9
+
+      ==================================================================================================================
+      DIRECTORY: Access
+      Files: 6 | Total: 127 | Code: 95 | Comments: 9 | Blank: 23
+      ==================================================================================================================
+
+        FILES IN THIS DIRECTORY:
+        -------------------------------------------------------------------------------------------------------------
+          UserActionMapping.cs                                         | Total:       26 | Code:       24 | Cmts:        0 | Blank:        2
+          AllyAllocationRole.cs                                        | Total:       21 | Code:       17 | Cmts:        0 | Blank:        4
+          Permission.cs                                                | Total:       20 | Code:       16 | Cmts:        0 | Blank:        4
+          RolePermissionMapping.cs                                     | Total:       20 | Code:       16 | Cmts:        0 | Blank:        4
+          UserAction.cs                                                | Total:       27 | Code:       13 | Cmts:        9 | Blank:        5
+          Role.cs                                                      | Total:       13 | Code:        9 | Cmts:        0 | Blank:        4
+
+      ==================================================================================================================
+      DIRECTORY: Allies
+      Files: 12 | Total: 545 | Code: 320 | Comments: 156 | Blank: 69
+      ==================================================================================================================
+
+        FILES IN THIS DIRECTORY:
+        -------------------------------------------------------------------------------------------------------------
+          ConnectedAlly.cs                                             | Total:       51 | Code:       44 | Cmts:        3 | Blank:        4
+          AllyMessage.cs                                               | Total:       93 | Code:       42 | Cmts:       35 | Blank:       16
+          AllyBehavior.cs                                              | Total:      139 | Code:       41 | Cmts:       78 | Blank:       20
+          AllyAllocation.cs                                            | Total:       43 | Code:       38 | Cmts:        0 | Blank:        5
+          AllySocialMedia.cs                                           | Total:       62 | Code:       25 | Cmts:       29 | Blank:        8
+          Ally.cs                                                      | Total:       25 | Code:       23 | Cmts:        0 | Blank:        2
+          AllyRole.cs                                                  | Total:       25 | Code:       21 | Cmts:        0 | Blank:        4
+          AllySession.cs                                               | Total:       22 | Code:       21 | Cmts:        0 | Blank:        1
+          AllyImage.cs                                                 | Total:       21 | Code:       19 | Cmts:        0 | Blank:        2
+          AllyRestPasswordRequest.cs                                   | Total:       21 | Code:       19 | Cmts:        0 | Blank:        2
+          AllyPasscode.cs                                              | Total:       23 | Code:       15 | Cmts:        5 | Blank:        3
+          AllyMessageParticipant.cs                                    | Total:       20 | Code:       12 | Cmts:        6 | Blank:        2
+
+      ==================================================================================================================
+      DIRECTORY: Behavior
+      Files: 6 | Total: 250 | Code: 130 | Comments: 71 | Blank: 49
+      ==================================================================================================================
+
+        FILES IN THIS DIRECTORY:
+        -------------------------------------------------------------------------------------------------------------
+          JobAid.cs                                                    | Total:       32 | Code:       26 | Cmts:        0 | Blank:        6
+          BehaviorCategory.cs                                          | Total:       74 | Code:       23 | Cmts:       37 | Blank:       14
+          VitalBehavior.cs                                             | Total:       62 | Code:       23 | Cmts:       30 | Blank:        9
+          BehaviorMapping.cs                                           | Total:       36 | Code:       22 | Cmts:        3 | Blank:       11
+          BehaviorSkillInfo.cs                                         | Total:       25 | Code:       19 | Cmts:        0 | Blank:        6
+          BehaviorSkill.cs                                             | Total:       21 | Code:       17 | Cmts:        1 | Blank:        3
+
+      ==================================================================================================================
+      DIRECTORY: ConfigEntity
+      Files: 8 | Total: 586 | Code: 513 | Comments: 19 | Blank: 54
+      ==================================================================================================================
+
+        FILES IN THIS DIRECTORY:
+        -------------------------------------------------------------------------------------------------------------
+          ConfigPulseCheck.cs                                          | Total:      130 | Code:      116 | Cmts:        6 | Blank:        8
+          ConfigAlly.cs                                                | Total:      137 | Code:      114 | Cmts:       12 | Blank:       11
+          ConfigProject.cs                                             | Total:       83 | Code:       75 | Cmts:        1 | Blank:        7
+          ConfigBehavior.cs                                            | Total:       74 | Code:       64 | Cmts:        0 | Blank:       10
+          ConfigAccess.cs                                              | Total:       50 | Code:       45 | Cmts:        0 | Blank:        5
+          ConfigCulture.cs                                             | Total:       51 | Code:       45 | Cmts:        0 | Blank:        6
+          ConfigOrganization.cs                                        | Total:       40 | Code:       35 | Cmts:        0 | Blank:        5
+          ConfigShift.cs                                               | Total:       21 | Code:       19 | Cmts:        0 | Blank:        2
+
+      ==================================================================================================================
+      DIRECTORY: Culture
+      Files: 5 | Total: 134 | Code: 76 | Comments: 42 | Blank: 16
+      ==================================================================================================================
+
+        FILES IN THIS DIRECTORY:
+        -------------------------------------------------------------------------------------------------------------
+          SocialMedia.cs                                               | Total:       71 | Code:       22 | Cmts:       42 | Blank:        7
+          TimeZone.cs                                                  | Total:       18 | Code:       15 | Cmts:        0 | Blank:        3
+          Country.cs                                                   | Total:       15 | Code:       13 | Cmts:        0 | Blank:        2
+          Language.cs                                                  | Total:       15 | Code:       13 | Cmts:        0 | Blank:        2
+          Relationship.cs                                              | Total:       15 | Code:       13 | Cmts:        0 | Blank:        2
+
+      ==================================================================================================================
+      DIRECTORY: CustomMigrations
+      Files: 29 | Total: 47,153 | Code: 32,950 | Comments: 89 | Blank: 14,114
+      ==================================================================================================================
+
+        FILES IN THIS DIRECTORY:
+        -------------------------------------------------------------------------------------------------------------
+          20250528125535_UserActionUpdates.Designer.cs                 | Total:    4,174 | Code:    2,888 | Cmts:        2 | Blank:    1,284
+          20250515075437_AddAnonymousFieldsToPulseCheckTables.Designer.cs | Total:    4,171 | Code:    2,886 | Cmts:        2 | Blank:    1,283
+          20250418052948_AddUserAction.Designer.cs                     | Total:    4,143 | Code:    2,867 | Cmts:        2 | Blank:    1,274
+          20250226045756_UpdatePulseCheckSchema.Designer.cs            | Total:    4,131 | Code:    2,859 | Cmts:        2 | Blank:    1,270
+          20240606060654_PulseCheckDefinitionsNewFieds.Designer.cs     | Total:    3,327 | Code:    2,314 | Cmts:        2 | Blank:    1,011
+          20240617141643_AddColumnPulseCheck.Designer.cs               | Total:    3,297 | Code:    2,293 | Cmts:        2 | Blank:    1,002
+          20240627072813_DropColumnIsNewVisit.Designer.cs              | Total:    3,294 | Code:    2,291 | Cmts:        2 | Blank:    1,001
+          20240408102732_AllyColumnsAdded.Designer.cs                  | Total:    3,187 | Code:    2,216 | Cmts:        2 | Blank:      969
+          20240322061009_RemovedEmailUniqueConstraintAllies.Designer.cs | Total:    3,178 | Code:    2,210 | Cmts:        2 | Blank:      966
+          20240222110620_UpdatedMessagesTable.Designer.cs              | Total:    3,105 | Code:    2,160 | Cmts:        2 | Blank:      943
+          20240223051911_AddedandUpdatedAllyMessageParticipantsTables.Designer.cs | Total:    3,009 | Code:    2,093 | Cmts:        2 | Blank:      914
+          20240223050301_RemovedOldConversationTables.Designer.cs      | Total:    2,944 | Code:    2,048 | Cmts:        2 | Blank:      894
+          20240103074251_UserAction-Update.Designer.cs                 | Total:    2,016 | Code:    1,407 | Cmts:        2 | Blank:      607
+          20231221064121_UpdatedPasscodeBaseEntity.Designer.cs         | Total:    1,744 | Code:    1,218 | Cmts:        2 | Blank:      524
+          CustomMigrationFactoryDefaults.cs                            | Total:      515 | Code:      433 | Cmts:       25 | Blank:       57
+          20240223050301_RemovedOldConversationTables.cs               | Total:      165 | Code:      146 | Cmts:        3 | Blank:       16
+          20240223051911_AddedandUpdatedAllyMessageParticipantsTables.cs | Total:      108 | Code:       92 | Cmts:        3 | Blank:       13
+          20231221064121_UpdatedPasscodeBaseEntity.cs                  | Total:       92 | Code:       75 | Cmts:        3 | Blank:       14
+          20240103074251_UserAction-Update.cs                          | Total:       84 | Code:       69 | Cmts:        3 | Blank:       12
+          20250226045756_UpdatePulseCheckSchema.cs                     | Total:       74 | Code:       65 | Cmts:        3 | Blank:        6
+          20250515075437_AddAnonymousFieldsToPulseCheckTables.cs       | Total:       80 | Code:       65 | Cmts:        3 | Blank:       12
+          20240606060654_PulseCheckDefinitionsNewFieds.cs              | Total:       68 | Code:       55 | Cmts:        3 | Blank:       10
+          20240408102732_AllyColumnsAdded.cs                           | Total:       43 | Code:       34 | Cmts:        3 | Blank:        6
+          20240322061009_RemovedEmailUniqueConstraintAllies.cs         | Total:       42 | Code:       33 | Cmts:        3 | Blank:        6
+          20250528125535_UserActionUpdates.cs                          | Total:       36 | Code:       31 | Cmts:        0 | Blank:        5
+          20250418052948_AddUserAction.cs                              | Total:       30 | Code:       27 | Cmts:        0 | Blank:        3
+          20240222110620_UpdatedMessagesTable.cs                       | Total:       32 | Code:       25 | Cmts:        3 | Blank:        4
+          20240617141643_AddColumnPulseCheck.cs                        | Total:       32 | Code:       25 | Cmts:        3 | Blank:        4
+          20240627072813_DropColumnIsNewVisit.cs                       | Total:       32 | Code:       25 | Cmts:        3 | Blank:        4
+
+      ==================================================================================================================
+      DIRECTORY: FactoryDefaults
+      Files: 7 | Total: 219 | Code: 186 | Comments: 0 | Blank: 33
+      ==================================================================================================================
+
+        FILES IN THIS DIRECTORY:
+        -------------------------------------------------------------------------------------------------------------
+          SocialMediaData.cs                                           | Total:       63 | Code:       59 | Cmts:        0 | Blank:        4
+          UserActionData.cs                                            | Total:       39 | Code:       32 | Cmts:        0 | Blank:        7
+          CountryData.cs                                               | Total:       32 | Code:       24 | Cmts:        0 | Blank:        8
+          LanguageData.cs                                              | Total:       30 | Code:       23 | Cmts:        0 | Blank:        7
+          RelationshipData.cs                                          | Total:       19 | Code:       17 | Cmts:        0 | Blank:        2
+          TimeZoneData.cs                                              | Total:       21 | Code:       17 | Cmts:        0 | Blank:        4
+          ProjectTypeData.cs                                           | Total:       15 | Code:       14 | Cmts:        0 | Blank:        1
+
+      ==================================================================================================================
+      DIRECTORY: Generic
+      Files: 1 | Total: 35 | Code: 28 | Comments: 4 | Blank: 3
+      ==================================================================================================================
+
+        FILES IN THIS DIRECTORY:
+        -------------------------------------------------------------------------------------------------------------
+          BaseEntity.cs                                                | Total:       35 | Code:       28 | Cmts:        4 | Blank:        3
+
+      ==================================================================================================================
+      DIRECTORY: Migrations
+      Files: 203 | Total: 339,015 | Code: 237,535 | Comments: 509 | Blank: 100,971
+      ==================================================================================================================
+
+        FILES IN THIS DIRECTORY:
+        -------------------------------------------------------------------------------------------------------------
+          20250717055101_ManualTargetedResultChange.Designer.cs        | Total:    4,597 | Code:    3,183 | Cmts:        2 | Blank:    1,412
+          AppDbContextModelSnapshot.cs                                 | Total:    4,594 | Code:    3,181 | Cmts:        1 | Blank:    1,412
+          20250715053855_AddOnDemandAnonymousLink.Designer.cs          | Total:    4,502 | Code:    3,118 | Cmts:        2 | Blank:    1,382
+          20250707180907_RoleBasedAccess.Designer.cs                   | Total:    4,487 | Code:    3,108 | Cmts:        2 | Blank:    1,377
+          20250707182553_SetupAllyAssistOrgAdmin.Designer.cs           | Total:    4,487 | Code:    3,108 | Cmts:        2 | Blank:    1,377
+          20250606105138_IsSSOUserAddedToAlly.Designer.cs              | Total:    4,316 | Code:    2,987 | Cmts:        2 | Blank:    1,327
+          20250522104623_AddPulseCheckTargetedResults.Designer.cs      | Total:    4,313 | Code:    2,986 | Cmts:        2 | Blank:    1,325
+          20250606065211_ChangeReferentialActionForTargetedResultProject.Designer.cs | Total:    4,313 | Code:    2,985 | Cmts:        2 | Blank:    1,326
+          20250526124647_AddedColumnIsOnlyDirectReportsAllowedPulseCheckDefination.Designer.cs | Total:    4,177 | Code:    2,890 | Cmts:        2 | Blank:    1,285
+          20250521063139_PulseCheckDefinitionId.Designer.cs            | Total:    4,174 | Code:    2,888 | Cmts:        2 | Blank:    1,284
+          20250512063046_UpdatePCDefinition.Designer.cs                | Total:    4,156 | Code:    2,876 | Cmts:        2 | Blank:    1,278
+          20250430054808_AdditionalFeedbackCommentInPulseCheck.Designer.cs | Total:    4,150 | Code:    2,872 | Cmts:        2 | Blank:    1,276
+          20250505025907_AddNetworkRelationship.Designer.cs            | Total:    4,150 | Code:    2,872 | Cmts:        2 | Blank:    1,276
+          20250428173007_AddNetworkTypeInConnectedAlly.Designer.cs     | Total:    4,144 | Code:    2,868 | Cmts:        2 | Blank:    1,274
+          20250418052948_AddAllowOutsideFeedbackProviderToPulseCheckDefinitions.Designer.cs | Total:    4,143 | Code:    2,867 | Cmts:        2 | Blank:    1,274
+          20250407031947_AddTimesUsed.Designer.cs                      | Total:    4,137 | Code:    2,863 | Cmts:        2 | Blank:    1,272
+          20250328094243_AddCustomLabelFileName.Designer.cs            | Total:    4,134 | Code:    2,861 | Cmts:        2 | Blank:    1,271
+          20250212045344_OrgIDFOrAllyMessage.Designer.cs               | Total:    4,061 | Code:    2,810 | Cmts:        2 | Blank:    1,249
+          20250210151854_AddPulseCheckSchedulerLog.Designer.cs         | Total:    4,050 | Code:    2,803 | Cmts:        2 | Blank:    1,245
+          20250109045938_WeekendPCEntityModify.Designer.cs             | Total:    3,977 | Code:    2,754 | Cmts:        2 | Blank:    1,221
+          20250109080630_WeekendPCEntityModifyToNull.Designer.cs       | Total:    3,977 | Code:    2,754 | Cmts:        2 | Blank:    1,221
+          20250109102820_WeekendPCEntityNull.Designer.cs               | Total:    3,977 | Code:    2,754 | Cmts:        2 | Blank:    1,221
+          20250116043950_AllyGroupAltered.Designer.cs                  | Total:    3,977 | Code:    2,754 | Cmts:        2 | Blank:    1,221
+          20250109153052_WeekendPCEntityRevert.Designer.cs             | Total:    3,974 | Code:    2,752 | Cmts:        2 | Blank:    1,220
+          20250121115046_AddNewMigrationName.Designer.cs               | Total:    3,975 | Code:    2,752 | Cmts:        2 | Blank:    1,221
+          20250121180746_AddOrgIdMigrationName.Designer.cs             | Total:    3,975 | Code:    2,752 | Cmts:        2 | Blank:    1,221
+          20250123085210_addPreWeekendExpiryMigration.Designer.cs      | Total:    3,975 | Code:    2,752 | Cmts:        2 | Blank:    1,221
+          20241202092442_PulseCheckSenderReceiverGroupSetCatIdRlnshp.Designer.cs | Total:    3,968 | Code:    2,748 | Cmts:        2 | Blank:    1,218
+          20241114091227_UpdatedPulseCheckEventsTables.Designer.cs     | Total:    3,960 | Code:    2,743 | Cmts:        2 | Blank:    1,215
+          20241121051929_UpdatedVisitEventStatusPulseCheckManagerEvents.Designer.cs | Total:    3,960 | Code:    2,743 | Cmts:        2 | Blank:    1,215
+          20241202085813_UpdatedPulseCheckSenderReceiverGroupSetCatIdNullable.Designer.cs | Total:    3,960 | Code:    2,743 | Cmts:        2 | Blank:    1,215
+          20241007082307_VisitStatusAdded.Designer.cs                  | Total:    3,943 | Code:    2,733 | Cmts:        2 | Blank:    1,208
+          20241022085415_IsUpdateAvailableToViewadded.Designer.cs      | Total:    3,945 | Code:    2,733 | Cmts:        2 | Blank:    1,210
+          20241004110846_PrjIdAddToPCMgr.Designer.cs                   | Total:    3,940 | Code:    2,731 | Cmts:        2 | Blank:    1,207
+          20241011050519_UpdatePulseCheckDraftRequestsTable.Designer.cs | Total:    3,942 | Code:    2,731 | Cmts:        2 | Blank:    1,209
+          20241008085759_ModifiedAllyIdNullable.Designer.cs            | Total:    3,939 | Code:    2,729 | Cmts:        2 | Blank:    1,208
+          20240923101432_PulseCheckManagerEvent.Designer.cs            | Total:    3,929 | Code:    2,724 | Cmts:        2 | Blank:    1,203
+          20240919071112_AddedPulseCheckCategorizationTables.Designer.cs | Total:    3,867 | Code:    2,681 | Cmts:        2 | Blank:    1,184
+          20240910041736_PulseCheckResponseViewLogs.Designer.cs        | Total:    3,774 | Code:    2,616 | Cmts:        2 | Blank:    1,156
+          20240910123524_removePulseCheckRequestColumns.Designer.cs    | Total:    3,762 | Code:    2,608 | Cmts:        2 | Blank:    1,152
+          20240917090418_ModifyTablePulseCheckRequestPulseCheckManager.Designer.cs | Total:    3,761 | Code:    2,607 | Cmts:        2 | Blank:    1,152
+          20240909074928_PulseCheckRequestModified.Designer.cs         | Total:    3,712 | Code:    2,573 | Cmts:        2 | Blank:    1,137
+          20240902090919_PulseCheckDraftRequestsTable.Designer.cs      | Total:    3,701 | Code:    2,566 | Cmts:        2 | Blank:    1,133
+          20240826072545_UpdatePCReqTable.Designer.cs                  | Total:    3,579 | Code:    2,484 | Cmts:        2 | Blank:    1,093
+          20240826070532_AddPulseCheckManagerTable.Designer.cs         | Total:    3,557 | Code:    2,470 | Cmts:        2 | Blank:    1,085
+          20240826071312_AddPulseCheckManagerTable1.Designer.cs        | Total:    3,557 | Code:    2,470 | Cmts:        2 | Blank:    1,085
+          20240826071543_AddPulseCheckManagerTbl.Designer.cs           | Total:    3,557 | Code:    2,470 | Cmts:        2 | Blank:    1,085
+          20240826071802_AddPulseCheckManagerTbl1.Designer.cs          | Total:    3,557 | Code:    2,470 | Cmts:        2 | Blank:    1,085
+          20240826062108_AddPulseCheckStatus.Designer.cs               | Total:    3,461 | Code:    2,405 | Cmts:        2 | Blank:    1,054
+          20240821110613_JobTitleAddedToAllocation.Designer.cs         | Total:    3,458 | Code:    2,403 | Cmts:        2 | Blank:    1,053
+          20240821091538_AllyModification.Designer.cs                  | Total:    3,455 | Code:    2,401 | Cmts:        2 | Blank:    1,052
+          20240821060434_ConnectedAllyModification.Designer.cs         | Total:    3,446 | Code:    2,395 | Cmts:        2 | Blank:    1,049
+          20240819113422_ConnectedAllyAndRelationship.Designer.cs      | Total:    3,437 | Code:    2,390 | Cmts:        2 | Blank:    1,045
+          20240606061510_PulseCheckRequestFieldsUpdated.Designer.cs    | Total:    3,330 | Code:    2,316 | Cmts:        2 | Blank:    1,012
+          20240610061535_MessageRelatedChanges.Designer.cs             | Total:    3,294 | Code:    2,291 | Cmts:        2 | Blank:    1,001
+          20240612093143_UpdateFieldNameUTCPulseCheckTime.Designer.cs  | Total:    3,294 | Code:    2,291 | Cmts:        2 | Blank:    1,001
+          20240606130117_TimeZoneChanges.Designer.cs                   | Total:    3,282 | Code:    2,283 | Cmts:        2 | Blank:      997
+          20240418093034_AddAllyRestPasswordRequest.Designer.cs        | Total:    3,252 | Code:    2,262 | Cmts:        2 | Blank:      988
+          20240415064719_AddedIndex.Designer.cs                        | Total:    3,193 | Code:    2,220 | Cmts:        2 | Blank:      971
+          20240402095623_AddEnableUpdateFromUI.Designer.cs             | Total:    3,181 | Code:    2,212 | Cmts:        2 | Blank:      967
+          20240320064342_AddLevelUpChat.Designer.cs                    | Total:    3,179 | Code:    2,211 | Cmts:        2 | Blank:      966
+          20240206060823_PulseCheckCommnetsAdded.Designer.cs           | Total:    3,102 | Code:    2,158 | Cmts:        2 | Blank:      942
+          20240202112851_UpdateForPulseCheckResponse.Designer.cs       | Total:    3,011 | Code:    2,097 | Cmts:        2 | Blank:      912
+          20240202044602_UpdateForPulseCheckRequest.Designer.cs        | Total:    3,000 | Code:    2,090 | Cmts:        2 | Blank:      908
+          20240110094735_AllyAndAllyPasscodeChanged.cs                 | Total:    2,488 | Code:    2,083 | Cmts:        3 | Blank:      402
+          20240201090450_AddedAdditionalPulseCheck.Designer.cs         | Total:    2,975 | Code:    2,074 | Cmts:        2 | Blank:      899
+          20240201090751_UpdatedAdditionalPulseCheck.Designer.cs       | Total:    2,975 | Code:    2,074 | Cmts:        2 | Blank:      899
+          20240124133331_UpdatedMessagesTableWithCParticipant.Designer.cs | Total:    2,930 | Code:    2,043 | Cmts:        2 | Blank:      885
+          20240110094735_AllyAndAllyPasscodeChanged.Designer.cs        | Total:    2,906 | Code:    2,000 | Cmts:        2 | Blank:      904
+          20240110101928_PasscodeChangedAgain.Designer.cs              | Total:    2,906 | Code:    2,000 | Cmts:        2 | Blank:      904
+          20240124070630_UpdatedMessagesTableWithPulseCheckId.Designer.cs | Total:    2,866 | Code:    1,998 | Cmts:        2 | Blank:      866
+          20240124052802_AddedMessagesTable.Designer.cs                | Total:    2,854 | Code:    1,990 | Cmts:        2 | Blank:      862
+          20240122110720_UpdatePulseCheckRequest.Designer.cs           | Total:    2,666 | Code:    1,860 | Cmts:        2 | Blank:      804
+          20240123064955_updatedOrg.Designer.cs                        | Total:    2,666 | Code:    1,860 | Cmts:        2 | Blank:      804
+          20240123065955_changedImageNameToLogoNameInOrg.Designer.cs   | Total:    2,666 | Code:    1,860 | Cmts:        2 | Blank:      804
+          20240123124006_updatedProjectImage.Designer.cs               | Total:    2,659 | Code:    1,855 | Cmts:        2 | Blank:      802
+          20240123135348_AddedNullAllyImageNameFields.Designer.cs      | Total:    2,656 | Code:    1,852 | Cmts:        2 | Blank:      802
+          20240124121910_projectImageUpdate.Designer.cs                | Total:    2,656 | Code:    1,852 | Cmts:        2 | Blank:      802
+          20240122095723_AddPulseCheckResponse.Designer.cs             | Total:    2,653 | Code:    1,851 | Cmts:        2 | Blank:      800
+          20240122080750_updatedAllyImage.Designer.cs                  | Total:    2,551 | Code:    1,782 | Cmts:        2 | Blank:      767
+          20240122084535_MovedAllyImage.Designer.cs                    | Total:    2,551 | Code:    1,782 | Cmts:        2 | Blank:      767
+          20240120061638_AddedAllyImage.Designer.cs                    | Total:    2,547 | Code:    1,779 | Cmts:        2 | Blank:      766
+          20240118091524_AddPulseCheckRequest.Designer.cs              | Total:    2,493 | Code:    1,741 | Cmts:        2 | Blank:      750
+          20240117093049_TopExpectationAdded.Designer.cs               | Total:    2,411 | Code:    1,684 | Cmts:        2 | Blank:      725
+          20240117110024_PulseCheckDefinitionModified.Designer.cs      | Total:    2,411 | Code:    1,684 | Cmts:        2 | Blank:      725
+          20240118044432_ChangeForProjectAndOrg.Designer.cs            | Total:    2,411 | Code:    1,684 | Cmts:        2 | Blank:      725
+          20240115094351_AddedProjectInBehaviorAllocation.Designer.cs  | Total:    2,359 | Code:    1,647 | Cmts:        2 | Blank:      710
+          20240115112528_RemovedRoleLabelFromAllyRole.Designer.cs      | Total:    2,356 | Code:    1,645 | Cmts:        2 | Blank:      709
+          20240118073030_AllyallocationUpdate.Designer.cs              | Total:    2,354 | Code:    1,643 | Cmts:        2 | Blank:      709
+          20240110083633_AllyModified.Designer.cs                      | Total:    2,349 | Code:    1,640 | Cmts:        2 | Blank:      707
+          20240111052317_trialAllyRef.Designer.cs                      | Total:    2,348 | Code:    1,640 | Cmts:        2 | Blank:      706
+          20240109095614_AddedRoles.Designer.cs                        | Total:    2,340 | Code:    1,634 | Cmts:        2 | Blank:      704
+          20240108053959_useractionmappings.Designer.cs                | Total:    2,236 | Code:    1,561 | Cmts:        2 | Blank:      673
+          20240103090542_AddSocialMedia.Designer.cs                    | Total:    2,151 | Code:    1,503 | Cmts:        2 | Blank:      646
+          20240102095548_PulseCheckAndUserActionAdded.Designer.cs      | Total:    2,021 | Code:    1,411 | Cmts:        2 | Blank:      608
+          20240111052317_trialAllyRef.cs                               | Total:    1,669 | Code:    1,400 | Cmts:        3 | Blank:      266
+          20231220095027_AddedProjectAndBehaviorEntities.Designer.cs   | Total:    1,685 | Code:    1,178 | Cmts:        2 | Blank:      505
+          20231220095027_AddedProjectAndBehaviorEntities.cs            | Total:      996 | Code:      916 | Cmts:        3 | Blank:       77
+          20240826071802_AddPulseCheckManagerTbl1.cs                   | Total:      846 | Code:      730 | Cmts:        3 | Blank:      113
+          20240826071543_AddPulseCheckManagerTbl.cs                    | Total:      423 | Code:      358 | Cmts:        3 | Blank:       62
+          20240201090751_UpdatedAdditionalPulseCheck.cs                | Total:      387 | Code:      334 | Cmts:        3 | Blank:       50
+          20231219095828_AddedOrganization.Designer.cs                 | Total:      423 | Code:      296 | Cmts:        2 | Blank:      125
+          20240201090450_AddedAdditionalPulseCheck.cs                  | Total:      292 | Code:      248 | Cmts:        3 | Blank:       41
+          20231219095828_AddedOrganization.cs                          | Total:      268 | Code:      242 | Cmts:        3 | Blank:       23
+          20240102095548_PulseCheckAndUserActionAdded.cs               | Total:      240 | Code:      217 | Cmts:        3 | Blank:       20
+          20250717055101_ManualTargetedResultChange.cs                 | Total:      207 | Code:      175 | Cmts:        3 | Blank:       29
+          20240606130117_TimeZoneChanges.cs                            | Total:      197 | Code:      164 | Cmts:        3 | Blank:       30
+          20240917090418_ModifyTablePulseCheckRequestPulseCheckManager.cs | Total:      181 | Code:      150 | Cmts:        3 | Blank:       28
+          20240124052802_AddedMessagesTable.cs                         | Total:      162 | Code:      146 | Cmts:        3 | Blank:       13
+          20240320064342_AddLevelUpChat.cs                             | Total:      161 | Code:      142 | Cmts:        3 | Blank:       16
+          20250707180907_RoleBasedAccess.cs                            | Total:      145 | Code:      130 | Cmts:        3 | Blank:       12
+          20250522104623_AddPulseCheckTargetedResults.cs               | Total:      141 | Code:      127 | Cmts:        3 | Blank:       11
+          20231220034316_AddedLoginSession.Designer.cs                 | Total:      175 | Code:      125 | Cmts:        2 | Blank:       48
+          20240819113422_ConnectedAllyAndRelationship.cs               | Total:      139 | Code:      125 | Cmts:        3 | Blank:       11
+          20240902090919_PulseCheckDraftRequestsTable.cs               | Total:      130 | Code:      116 | Cmts:        3 | Blank:       11
+          20240821060434_ConnectedAllyModification.cs                  | Total:      133 | Code:      110 | Cmts:        3 | Blank:       20
+          20241114091227_UpdatedPulseCheckEventsTables.cs              | Total:      132 | Code:      109 | Cmts:        3 | Blank:       20
+          20240206060823_PulseCheckCommnetsAdded.cs                    | Total:      123 | Code:      107 | Cmts:        3 | Blank:       13
+          20241008085759_ModifiedAllyIdNullable.cs                     | Total:      118 | Code:      101 | Cmts:        3 | Blank:       14
+          20240122095723_AddPulseCheckResponse.cs                      | Total:      112 | Code:      100 | Cmts:        3 | Blank:        9
+          20231218095553_AddedPasscodeFK.Designer.cs                   | Total:      137 | Code:       99 | Cmts:        2 | Blank:       36
+          20231218090043_AddedPasscode.Designer.cs                     | Total:      134 | Code:       97 | Cmts:        2 | Blank:       35
+          20231218101037_UpdatedPasscodeFK.Designer.cs                 | Total:      134 | Code:       97 | Cmts:        2 | Blank:       35
+          20231219095535_ChangedPasscodeFK.Designer.cs                 | Total:      134 | Code:       97 | Cmts:        2 | Blank:       35
+          20240919071112_AddedPulseCheckCategorizationTables.cs        | Total:      110 | Code:       97 | Cmts:        3 | Blank:       10
+          20240103090542_AddSocialMedia.cs                             | Total:      104 | Code:       93 | Cmts:        3 | Blank:        8
+          20240108053959_useractionmappings.cs                         | Total:      105 | Code:       93 | Cmts:        3 | Blank:        9
+          20231218095553_AddedPasscodeFK.cs                            | Total:      111 | Code:       92 | Cmts:        3 | Blank:       16
+          20240202044602_UpdateForPulseCheckRequest.cs                 | Total:      106 | Code:       87 | Cmts:        3 | Blank:       16
+          20240109095614_AddedRoles.cs                                 | Total:       97 | Code:       86 | Cmts:        3 | Blank:        8
+          20240826070532_AddPulseCheckManagerTable.cs                  | Total:       94 | Code:       83 | Cmts:        3 | Blank:        8
+          20231219095535_ChangedPasscodeFK.cs                          | Total:       98 | Code:       81 | Cmts:        3 | Blank:       14
+          20240826072545_UpdatePCReqTable.cs                           | Total:       94 | Code:       77 | Cmts:        3 | Blank:       14
+          20231218090043_AddedPasscode.cs                              | Total:       87 | Code:       74 | Cmts:        3 | Blank:       10
+          20231218101037_UpdatedPasscodeFK.cs                          | Total:       85 | Code:       70 | Cmts:        3 | Blank:       12
+          20240118091524_AddPulseCheckRequest.cs                       | Total:       78 | Code:       69 | Cmts:        3 | Blank:        6
+          20240123135348_AddedNullAllyImageNameFields.cs               | Total:       79 | Code:       68 | Cmts:        3 | Blank:        8
+          20241011050519_UpdatePulseCheckDraftRequestsTable.cs         | Total:       83 | Code:       68 | Cmts:        3 | Blank:       12
+          20240606061510_PulseCheckRequestFieldsUpdated.cs             | Total:       82 | Code:       67 | Cmts:        3 | Blank:       12
+          20250210151854_AddPulseCheckSchedulerLog.cs                  | Total:       75 | Code:       66 | Cmts:        3 | Blank:        6
+          20250715053855_AddOnDemandAnonymousLink.cs                   | Total:       80 | Code:       65 | Cmts:        3 | Blank:       12
+          20240910041736_PulseCheckResponseViewLogs.cs                 | Total:       71 | Code:       62 | Cmts:        3 | Blank:        6
+          20240923101432_PulseCheckManagerEvent.cs                     | Total:       71 | Code:       62 | Cmts:        3 | Blank:        6
+          20231213140503_Initial.Designer.cs                           | Total:       83 | Code:       61 | Cmts:        2 | Blank:       20
+          20240117093049_TopExpectationAdded.cs                        | Total:       71 | Code:       61 | Cmts:        3 | Blank:        7
+          20240124133331_UpdatedMessagesTableWithCParticipant.cs       | Total:       70 | Code:       61 | Cmts:        3 | Blank:        6
+          20240118073030_AllyallocationUpdate.cs                       | Total:       69 | Code:       58 | Cmts:        3 | Blank:        8
+          20250121115046_AddNewMigrationName.cs                        | Total:       69 | Code:       58 | Cmts:        3 | Blank:        8
+          20240910123524_removePulseCheckRequestColumns.cs             | Total:       70 | Code:       57 | Cmts:        3 | Blank:       10
+          20240610061535_MessageRelatedChanges.cs                      | Total:       68 | Code:       55 | Cmts:        3 | Blank:       10
+          20231213140503_Initial.cs                                    | Total:       63 | Code:       53 | Cmts:        3 | Blank:        7
+          20240418093034_AddAllyRestPasswordRequest.cs                 | Total:       60 | Code:       52 | Cmts:        3 | Blank:        5
+          20250109102820_WeekendPCEntityNull.cs                        | Total:       60 | Code:       51 | Cmts:        3 | Blank:        6
+          20250109080630_WeekendPCEntityModifyToNull.cs                | Total:       59 | Code:       50 | Cmts:        3 | Blank:        6
+          20240120061638_AddedAllyImage.cs                             | Total:       56 | Code:       48 | Cmts:        3 | Blank:        5
+          20240122110720_UpdatePulseCheckRequest.cs                    | Total:       59 | Code:       48 | Cmts:        3 | Blank:        8
+          20250109045938_WeekendPCEntityModify.cs                      | Total:       59 | Code:       48 | Cmts:        3 | Blank:        8
+          20231220034316_AddedLoginSession.cs                          | Total:       56 | Code:       47 | Cmts:        3 | Blank:        6
+          20240115094351_AddedProjectInBehaviorAllocation.cs           | Total:       57 | Code:       46 | Cmts:        3 | Blank:        8
+          20240124070630_UpdatedMessagesTableWithPulseCheckId.cs       | Total:       57 | Code:       46 | Cmts:        3 | Blank:        8
+          20240202112851_UpdateForPulseCheckResponse.cs                | Total:       57 | Code:       46 | Cmts:        3 | Blank:        8
+          20240909074928_PulseCheckRequestModified.cs                  | Total:       57 | Code:       46 | Cmts:        3 | Blank:        8
+          20241004110846_PrjIdAddToPCMgr.cs                            | Total:       57 | Code:       46 | Cmts:        3 | Blank:        8
+          20250212045344_OrgIDFOrAllyMessage.cs                        | Total:       57 | Code:       46 | Cmts:        3 | Blank:        8
+          20250707182553_SetupAllyAssistOrgAdmin.cs                    | Total:       60 | Code:       45 | Cmts:        6 | Blank:        9
+          20240110083633_AllyModified.cs                               | Total:       55 | Code:       44 | Cmts:        3 | Blank:        8
+          20240821091538_AllyModification.cs                           | Total:       55 | Code:       44 | Cmts:        3 | Blank:        8
+          20250109153052_WeekendPCEntityRevert.cs                      | Total:       51 | Code:       42 | Cmts:        3 | Blank:        6
+          20240122080750_updatedAllyImage.cs                           | Total:       50 | Code:       39 | Cmts:        3 | Blank:        8
+          20250505025907_AddNetworkRelationship.cs                     | Total:       49 | Code:       39 | Cmts:        3 | Blank:        7
+          20240110101928_PasscodeChangedAgain.cs                       | Total:       45 | Code:       36 | Cmts:        3 | Blank:        6
+          20240415064719_AddedIndex.cs                                 | Total:       45 | Code:       36 | Cmts:        3 | Blank:        6
+          20250407031947_AddTimesUsed.cs                               | Total:       45 | Code:       36 | Cmts:        3 | Blank:        6
+          20240123124006_updatedProjectImage.cs                        | Total:       44 | Code:       35 | Cmts:        3 | Blank:        6
+          20241202092442_PulseCheckSenderReceiverGroupSetCatIdRlnshp.cs | Total:       44 | Code:       35 | Cmts:        3 | Blank:        6
+          20240123064955_updatedOrg.cs                                 | Total:       43 | Code:       34 | Cmts:        3 | Blank:        6
+          20250512063046_UpdatePCDefinition.cs                         | Total:       43 | Code:       34 | Cmts:        3 | Blank:        6
+          20241202085813_UpdatedPulseCheckSenderReceiverGroupSetCatIdNullable.cs | Total:       40 | Code:       33 | Cmts:        3 | Blank:        4
+          20250606065211_ChangeReferentialActionForTargetedResultProject.cs | Total:       41 | Code:       32 | Cmts:        3 | Blank:        6
+          20250428173007_AddNetworkTypeInConnectedAlly.cs              | Total:       33 | Code:       26 | Cmts:        3 | Blank:        4
+          20240402095623_AddEnableUpdateFromUI.cs                      | Total:       32 | Code:       25 | Cmts:        3 | Blank:        4
+          20240826062108_AddPulseCheckStatus.cs                        | Total:       32 | Code:       25 | Cmts:        3 | Blank:        4
+          20241007082307_VisitStatusAdded.cs                           | Total:       32 | Code:       25 | Cmts:        3 | Blank:        4
+          20250116043950_AllyGroupAltered.cs                           | Total:       32 | Code:       25 | Cmts:        3 | Blank:        4
+          20250521063139_PulseCheckDefinitionId.cs                     | Total:       32 | Code:       25 | Cmts:        3 | Blank:        4
+          20240115112528_RemovedRoleLabelFromAllyRole.cs               | Total:       31 | Code:       24 | Cmts:        3 | Blank:        4
+          20240117110024_PulseCheckDefinitionModified.cs               | Total:       31 | Code:       24 | Cmts:        3 | Blank:        4
+          20240123065955_changedImageNameToLogoNameInOrg.cs            | Total:       31 | Code:       24 | Cmts:        3 | Blank:        4
+          20240612093143_UpdateFieldNameUTCPulseCheckTime.cs           | Total:       31 | Code:       24 | Cmts:        3 | Blank:        4
+          20240821110613_JobTitleAddedToAllocation.cs                  | Total:       31 | Code:       24 | Cmts:        3 | Blank:        4
+          20241022085415_IsUpdateAvailableToViewadded.cs               | Total:       31 | Code:       24 | Cmts:        3 | Blank:        4
+          20241121051929_UpdatedVisitEventStatusPulseCheckManagerEvents.cs | Total:       31 | Code:       24 | Cmts:        3 | Blank:        4
+          20250328094243_AddCustomLabelFileName.cs                     | Total:       31 | Code:       24 | Cmts:        3 | Blank:        4
+          20250418052948_AddAllowOutsideFeedbackProviderToPulseCheckDefinitions.cs | Total:       31 | Code:       24 | Cmts:        3 | Blank:        4
+          20250430054808_AdditionalFeedbackCommentInPulseCheck.cs      | Total:       31 | Code:       24 | Cmts:        3 | Blank:        4
+          20250526124647_AddedColumnIsOnlyDirectReportsAllowedPulseCheckDefination.cs | Total:       31 | Code:       24 | Cmts:        3 | Blank:        4
+          20250606105138_IsSSOUserAddedToAlly.cs                       | Total:       31 | Code:       24 | Cmts:        3 | Blank:        4
+          20240122084535_MovedAllyImage.cs                             | Total:       29 | Code:       22 | Cmts:        3 | Blank:        4
+          20240118044432_ChangeForProjectAndOrg.cs                     | Total:       23 | Code:       14 | Cmts:        3 | Blank:        6
+          20240124121910_projectImageUpdate.cs                         | Total:       23 | Code:       14 | Cmts:        3 | Blank:        6
+          20240826071312_AddPulseCheckManagerTable1.cs                 | Total:       23 | Code:       14 | Cmts:        3 | Blank:        6
+          20250121180746_AddOrgIdMigrationName.cs                      | Total:       23 | Code:       14 | Cmts:        3 | Blank:        6
+          20250123085210_addPreWeekendExpiryMigration.cs               | Total:       23 | Code:       14 | Cmts:        3 | Blank:        6
+
+      ==================================================================================================================
+      DIRECTORY: Organization
+      Files: 4 | Total: 192 | Code: 93 | Comments: 76 | Blank: 23
+      ==================================================================================================================
+
+        FILES IN THIS DIRECTORY:
+        -------------------------------------------------------------------------------------------------------------
+          Organization.cs                                              | Total:      133 | Code:       45 | Cmts:       76 | Blank:       12
+          OrganizationPortfolio.cs                                     | Total:       25 | Code:       20 | Cmts:        0 | Blank:        5
+          Portfolio.cs                                                 | Total:       19 | Code:       15 | Cmts:        0 | Blank:        4
+          Industry.cs                                                  | Total:       15 | Code:       13 | Cmts:        0 | Blank:        2
+
+      ==================================================================================================================
+      DIRECTORY: Project
+      Files: 9 | Total: 255 | Code: 216 | Comments: 0 | Blank: 39
+      ==================================================================================================================
+
+        FILES IN THIS DIRECTORY:
+        -------------------------------------------------------------------------------------------------------------
+          Project.cs                                                   | Total:       42 | Code:       36 | Cmts:        0 | Blank:        6
+          BehaviorAllocation.cs                                        | Total:       33 | Code:       31 | Cmts:        0 | Blank:        2
+          TargetedResult.cs                                            | Total:       32 | Code:       29 | Cmts:        0 | Blank:        3
+          PulseCheckTargetedResult.cs                                  | Total:       37 | Code:       28 | Cmts:        0 | Blank:        9
+          TargetedResultData.cs                                        | Total:       30 | Code:       24 | Cmts:        0 | Blank:        6
+          KeyPerformerGroup.cs                                         | Total:       24 | Code:       21 | Cmts:        0 | Blank:        3
+          AllyGroup.cs                                                 | Total:       25 | Code:       20 | Cmts:        0 | Blank:        5
+          ProjectType.cs                                               | Total:       18 | Code:       15 | Cmts:        0 | Blank:        3
+          ProjectImage.cs                                              | Total:       14 | Code:       12 | Cmts:        0 | Blank:        2
+
+      ==================================================================================================================
+      DIRECTORY: PulseCheck
+      Files: 17 | Total: 808 | Code: 480 | Comments: 186 | Blank: 142
+      ==================================================================================================================
+
+        FILES IN THIS DIRECTORY:
+        -------------------------------------------------------------------------------------------------------------
+          PulseCheckRequest.cs                                         | Total:       68 | Code:       47 | Cmts:       11 | Blank:       10
+          PulseCheckManager.cs                                         | Total:       55 | Code:       45 | Cmts:        0 | Blank:       10
+          PulseCheckDraftRequest.cs                                    | Total:       50 | Code:       39 | Cmts:        0 | Blank:       11
+          PulseCheckResponse.cs                                        | Total:      109 | Code:       39 | Cmts:       53 | Blank:       17
+          PulseCheckComment.cs                                         | Total:      108 | Code:       32 | Cmts:       57 | Blank:       19
+          PulseCheckDefinition.cs                                      | Total:       71 | Code:       31 | Cmts:       22 | Blank:       18
+          PulseCheckQuestion.cs                                        | Total:       70 | Code:       30 | Cmts:       28 | Blank:       12
+          LevelUpChat.cs                                               | Total:       41 | Code:       29 | Cmts:        9 | Blank:        3
+          PulseCheckView.cs                                            | Total:       32 | Code:       29 | Cmts:        0 | Blank:        3
+          PulseCheckManagerEvent.cs                                    | Total:       29 | Code:       26 | Cmts:        0 | Blank:        3
+          PulseCheckSchedulerLog.cs                                    | Total:       30 | Code:       25 | Cmts:        0 | Blank:        5
+          PulseCheckSenderReceiverGroup.cs                             | Total:       41 | Code:       23 | Cmts:        6 | Blank:       12
+          PulseCheckResponseViewLogs.cs                                | Total:       27 | Code:       22 | Cmts:        0 | Blank:        5
+          PulseCheckAdditionalItem.cs                                  | Total:       24 | Code:       20 | Cmts:        0 | Blank:        4
+          TopExpectation.cs                                            | Total:       22 | Code:       18 | Cmts:        0 | Blank:        4
+          PulseCheckCategorizationMapping.cs                           | Total:       19 | Code:       15 | Cmts:        0 | Blank:        4
+          PulseCheckCategorization.cs                                  | Total:       12 | Code:       10 | Cmts:        0 | Blank:        2
+
+      ==================================================================================================================
+      DIRECTORY: Shift
+      Files: 3 | Total: 50 | Code: 43 | Comments: 0 | Blank: 7
+      ==================================================================================================================
+
+        FILES IN THIS DIRECTORY:
+        -------------------------------------------------------------------------------------------------------------
+          Shift.cs                                                     | Total:       23 | Code:       20 | Cmts:        0 | Blank:        3
+          ShiftDetails.cs                                              | Total:       18 | Code:       16 | Cmts:        0 | Blank:        2
+          ShiftHighlights.cs                                           | Total:        9 | Code:        7 | Cmts:        0 | Blank:        2
+
+    ====================================================================================================================
+    DIRECTORY: AllyAssistOneApp.Enumeration
+    Files: 32 | Total: 1,016 | Code: 561 | Comments: 291 | Blank: 164
+    ====================================================================================================================
+
+      FILES IN THIS DIRECTORY:
+      ---------------------------------------------------------------------------------------------------------------
+        MessageType.cs                                               | Total:      152 | Code:       42 | Cmts:       84 | Blank:       26
+        ConversationType.cs                                          | Total:       49 | Code:       40 | Cmts:        1 | Blank:        8
+        MessagePurpose.cs                                            | Total:       43 | Code:       37 | Cmts:        0 | Blank:        6
+        ResponseType.cs                                              | Total:      101 | Code:       37 | Cmts:       37 | Blank:       27
+        PulseCheckRequestCurrentStatus.cs                            | Total:       35 | Code:       29 | Cmts:        4 | Blank:        2
+        DescriptionType.cs                                           | Total:       88 | Code:       27 | Cmts:       40 | Blank:       21
+        NotificationMessageType.cs                                   | Total:       29 | Code:       27 | Cmts:        0 | Blank:        2
+        PulseCheckStatus.cs                                          | Total:       27 | Code:       25 | Cmts:        0 | Blank:        2
+        VisitStatus.cs                                               | Total:       38 | Code:       25 | Cmts:        9 | Blank:        4
+        PulseCheckType.cs                                            | Total:       26 | Code:       16 | Cmts:        0 | Blank:       10
+        OverallHabitStrengthRating.cs                                | Total:       28 | Code:       15 | Cmts:        8 | Blank:        5
+        RequestPulseCheckMode.cs                                     | Total:       17 | Code:       15 | Cmts:        0 | Blank:        2
+        AnonymousFeedbackType.cs                                     | Total:       16 | Code:       14 | Cmts:        0 | Blank:        2
+        ConnectedAllyAction.cs                                       | Total:       17 | Code:       14 | Cmts:        0 | Blank:        3
+        ConnectedAllyType.cs                                         | Total:       16 | Code:       14 | Cmts:        0 | Blank:        2
+        ItemType.cs                                                  | Total:       31 | Code:       14 | Cmts:       13 | Blank:        4
+        OverallHabitStrengthRatingValue.cs                           | Total:       16 | Code:       14 | Cmts:        0 | Blank:        2
+        StepNumber.cs                                                | Total:       31 | Code:       14 | Cmts:       13 | Blank:        4
+        AdditionActions.cs                                           | Total:       17 | Code:       13 | Cmts:        0 | Blank:        4
+        AllyType.cs                                                  | Total:       15 | Code:       13 | Cmts:        0 | Blank:        2
+        ExpectationPCAction.cs                                       | Total:       15 | Code:       13 | Cmts:        0 | Blank:        2
+        LevelUpChatStatus.cs                                         | Total:       43 | Code:       13 | Cmts:       29 | Blank:        1
+        PulseCheckAdditionalType.cs                                  | Total:       19 | Code:       13 | Cmts:        0 | Blank:        6
+        SMSTo.cs                                                     | Total:       28 | Code:       13 | Cmts:       12 | Blank:        3
+        TargetedResultDataType.cs                                    | Total:       15 | Code:       13 | Cmts:        0 | Blank:        2
+        UserFeedbackType.cs                                          | Total:       32 | Code:       10 | Cmts:       21 | Blank:        1
+        CarryforwardReason.cs                                        | Total:       11 | Code:        9 | Cmts:        0 | Blank:        2
+        PatientDashboardGraphDataIntervals.cs                        | Total:       10 | Code:        9 | Cmts:        0 | Blank:        1
+        EntryType.cs                                                 | Total:       13 | Code:        8 | Cmts:        3 | Blank:        2
+        PulseCheckCategoryTypes.cs                                   | Total:        9 | Code:        8 | Cmts:        0 | Blank:        1
+        ActiveStatus.cs                                              | Total:       10 | Code:        7 | Cmts:        0 | Blank:        3
+        PrerequisitePulseCheckStatus.cs                              | Total:       19 | Code:        0 | Cmts:       17 | Blank:        2
+
+    ====================================================================================================================
+    DIRECTORY: AllyAssistOneApp.Foundation
+    Files: 5 | Total: 200 | Code: 161 | Comments: 11 | Blank: 28
+    ====================================================================================================================
+
+      FILES IN THIS DIRECTORY:
+      ---------------------------------------------------------------------------------------------------------------
+        ListExtensions.cs                                            | Total:       49 | Code:       39 | Cmts:        3 | Blank:        7
+        StringExtensions.cs                                          | Total:       57 | Code:       39 | Cmts:        8 | Blank:       10
+        IEnumerableExtensions.cs                                     | Total:       32 | Code:       29 | Cmts:        0 | Blank:        3
+        DateTimeExtentions.cs                                        | Total:       31 | Code:       27 | Cmts:        0 | Blank:        4
+        GuidExtensions.cs                                            | Total:       31 | Code:       27 | Cmts:        0 | Blank:        4
+
+    ====================================================================================================================
+    DIRECTORY: AllyAssistOneApp.Infrastructure
+    Files: 6 | Total: 390 | Code: 331 | Comments: 4 | Blank: 55
+    ====================================================================================================================
+
+      FILES IN THIS DIRECTORY:
+      ---------------------------------------------------------------------------------------------------------------
+        Class1.cs                                                    | Total:       19 | Code:       12 | Cmts:        0 | Blank:        7
+
+      ==================================================================================================================
+      DIRECTORY: Extension
+      Files: 1 | Total: 190 | Code: 176 | Comments: 1 | Blank: 13
+      ==================================================================================================================
+
+        FILES IN THIS DIRECTORY:
+        -------------------------------------------------------------------------------------------------------------
+          ServiceCollectionExtensions.cs                               | Total:      190 | Code:      176 | Cmts:        1 | Blank:       13
+
+      ==================================================================================================================
+      DIRECTORY: Handler
+      Files: 2 | Total: 59 | Code: 44 | Comments: 0 | Blank: 15
+      ==================================================================================================================
+
+        FILES IN THIS DIRECTORY:
+        -------------------------------------------------------------------------------------------------------------
+          UnauthorizedExceptionHandler.cs                              | Total:       31 | Code:       24 | Cmts:        0 | Blank:        7
+          GlobalExceptionHandler.cs                                    | Total:       28 | Code:       20 | Cmts:        0 | Blank:        8
+
+      ==================================================================================================================
+      DIRECTORY: Middleware
+      Files: 2 | Total: 122 | Code: 99 | Comments: 3 | Blank: 20
+      ==================================================================================================================
+
+        FILES IN THIS DIRECTORY:
+        -------------------------------------------------------------------------------------------------------------
+          SlidingExpirationMiddleware.cs                               | Total:       64 | Code:       50 | Cmts:        3 | Blank:       11
+          SwaggerBasicAuthMiddleware.cs                                | Total:       58 | Code:       49 | Cmts:        0 | Blank:        9
+
+    ====================================================================================================================
+    DIRECTORY: AllyAssistOneApp.Operation
+    Files: 4 | Total: 171 | Code: 144 | Comments: 0 | Blank: 27
+    ====================================================================================================================
+
+      ==================================================================================================================
+      DIRECTORY: General
+      Files: 2 | Total: 32 | Code: 28 | Comments: 0 | Blank: 4
+      ==================================================================================================================
+
+        FILES IN THIS DIRECTORY:
+        -------------------------------------------------------------------------------------------------------------
+          MedsatckBlobOptions.cs                                       | Total:       17 | Code:       15 | Cmts:        0 | Blank:        2
+          FileContent.cs                                               | Total:       15 | Code:       13 | Cmts:        0 | Blank:        2
+
+      ==================================================================================================================
+      DIRECTORY: MedstackStorage
+      Files: 2 | Total: 139 | Code: 116 | Comments: 0 | Blank: 23
+      ==================================================================================================================
+
+        FILES IN THIS DIRECTORY:
+        -------------------------------------------------------------------------------------------------------------
+          MedstackBlobService.cs                                       | Total:      117 | Code:       97 | Cmts:        0 | Blank:       20
+          IMedstackBlobService.cs                                      | Total:       22 | Code:       19 | Cmts:        0 | Blank:        3
+
+    ====================================================================================================================
+    DIRECTORY: AllyAssistOneApp.Repository
+    Files: 119 | Total: 28,257 | Code: 20,498 | Comments: 4,091 | Blank: 3,668
+    ====================================================================================================================
+
+      ==================================================================================================================
+      DIRECTORY: AutoMapper
+      Files: 1 | Total: 109 | Code: 104 | Comments: 1 | Blank: 4
+      ==================================================================================================================
+
+        FILES IN THIS DIRECTORY:
+        -------------------------------------------------------------------------------------------------------------
+          MapProfiles.cs                                               | Total:      109 | Code:      104 | Cmts:        1 | Blank:        4
+
+      ==================================================================================================================
+      DIRECTORY: Implementation
+      Files: 57 | Total: 26,209 | Code: 18,893 | Comments: 3,907 | Blank: 3,409
+      ==================================================================================================================
+
+        FILES IN THIS DIRECTORY:
+        -------------------------------------------------------------------------------------------------------------
+          UnitOfWork.cs                                                | Total:      235 | Code:      222 | Cmts:        2 | Blank:       11
+
+        ================================================================================================================
+        DIRECTORY: Access
+        Files: 3 | Total: 229 | Code: 186 | Comments: 2 | Blank: 41
+        ================================================================================================================
+
+          FILES IN THIS DIRECTORY:
+          -----------------------------------------------------------------------------------------------------------
+            AuthorizationRepository.cs                                   | Total:      135 | Code:      104 | Cmts:        2 | Blank:       29
+            UserActionRepository.cs                                      | Total:       62 | Code:       53 | Cmts:        0 | Blank:        9
+            RoleRepository.cs                                            | Total:       32 | Code:       29 | Cmts:        0 | Blank:        3
+
+        ================================================================================================================
+        DIRECTORY: Allies
+        Files: 11 | Total: 13,520 | Code: 8,882 | Comments: 2,787 | Blank: 1,851
+        ================================================================================================================
+
+          FILES IN THIS DIRECTORY:
+          -----------------------------------------------------------------------------------------------------------
+            ConnectedAllyRepository.cs                                   | Total:    7,344 | Code:    4,517 | Cmts:    1,796 | Blank:    1,031
+            AllyRepository.cs                                            | Total:    2,599 | Code:    1,745 | Cmts:      544 | Blank:      310
+            AllyMessageRepository.cs                                     | Total:    1,432 | Code:    1,032 | Cmts:      205 | Blank:      195
+            AllyAllocationRepository.cs                                  | Total:    1,370 | Code:      950 | Cmts:      235 | Blank:      185
+            AllyBehaviorRepository.cs                                    | Total:      390 | Code:      304 | Cmts:        7 | Blank:       79
+            AllyRestPasswordRequestRepository.cs                         | Total:      127 | Code:      110 | Cmts:        0 | Blank:       17
+            AllyPasscodeRepository.cs                                    | Total:       94 | Code:       83 | Cmts:        0 | Blank:       11
+            AllySocialMediaRepository.cs                                 | Total:       76 | Code:       66 | Cmts:        0 | Blank:       10
+            AllyRoleRepository.cs                                        | Total:       61 | Code:       55 | Cmts:        0 | Blank:        6
+            ConversationParticipantRepository.cs                         | Total:       14 | Code:       10 | Cmts:        0 | Blank:        4
+            ConversationRepository.cs                                    | Total:       13 | Code:       10 | Cmts:        0 | Blank:        3
+
+        ================================================================================================================
+        DIRECTORY: Behavior
+        Files: 6 | Total: 413 | Code: 359 | Comments: 10 | Blank: 44
+        ================================================================================================================
+
+          FILES IN THIS DIRECTORY:
+          -----------------------------------------------------------------------------------------------------------
+            BehaviorCategoryRepository.cs                                | Total:      302 | Code:      264 | Cmts:       10 | Blank:       28
+            JobAidRepository.cs                                          | Total:       38 | Code:       33 | Cmts:        0 | Blank:        5
+            VitalBehaviorRepository.cs                                   | Total:       31 | Code:       26 | Cmts:        0 | Blank:        5
+            BehaviorMappingRepository.cs                                 | Total:       14 | Code:       12 | Cmts:        0 | Blank:        2
+            BehaviorSkillInfoRepository.cs                               | Total:       14 | Code:       12 | Cmts:        0 | Blank:        2
+            BehaviorSkillRepository.cs                                   | Total:       14 | Code:       12 | Cmts:        0 | Blank:        2
+
+        ================================================================================================================
+        DIRECTORY: Culture
+        Files: 5 | Total: 188 | Code: 166 | Comments: 0 | Blank: 22
+        ================================================================================================================
+
+          FILES IN THIS DIRECTORY:
+          -----------------------------------------------------------------------------------------------------------
+            RelationshipRepository.cs                                    | Total:       43 | Code:       38 | Cmts:        0 | Blank:        5
+            CountryRepository.cs                                         | Total:       37 | Code:       34 | Cmts:        0 | Blank:        3
+            TimeZoneRepository.cs                                        | Total:       41 | Code:       34 | Cmts:        0 | Blank:        7
+            LanguageRepository.cs                                        | Total:       35 | Code:       32 | Cmts:        0 | Blank:        3
+            SocialMediaRepository.cs                                     | Total:       32 | Code:       28 | Cmts:        0 | Blank:        4
+
+        ================================================================================================================
+        DIRECTORY: Dashboard
+        Files: 3 | Total: 1,088 | Code: 900 | Comments: 46 | Blank: 142
+        ================================================================================================================
+
+          FILES IN THIS DIRECTORY:
+          -----------------------------------------------------------------------------------------------------------
+            PatientDashboardRepository.cs                                | Total:      602 | Code:      467 | Cmts:       43 | Blank:       92
+            LeaderDashboardRepository.cs                                 | Total:      425 | Code:      376 | Cmts:        3 | Blank:       46
+            TeamDashboardRepository.cs                                   | Total:       61 | Code:       57 | Cmts:        0 | Blank:        4
+
+        ================================================================================================================
+        DIRECTORY: Organization
+        Files: 4 | Total: 739 | Code: 575 | Comments: 38 | Blank: 126
+        ================================================================================================================
+
+          FILES IN THIS DIRECTORY:
+          -----------------------------------------------------------------------------------------------------------
+            OrganizationRepository.cs                                    | Total:      309 | Code:      250 | Cmts:       16 | Blank:       43
+            PortfolioRepository.cs                                       | Total:      243 | Code:      183 | Cmts:       11 | Blank:       49
+            OrganizationPortfolioRepository.cs                           | Total:      150 | Code:      108 | Cmts:       11 | Blank:       31
+            IndustryRepository.cs                                        | Total:       37 | Code:       34 | Cmts:        0 | Blank:        3
+
+        ================================================================================================================
+        DIRECTORY: Project
+        Files: 7 | Total: 1,148 | Code: 920 | Comments: 56 | Blank: 172
+        ================================================================================================================
+
+          FILES IN THIS DIRECTORY:
+          -----------------------------------------------------------------------------------------------------------
+            KeyPerformerGroupRepository.cs                               | Total:      324 | Code:      250 | Cmts:       22 | Blank:       52
+            ProjectRepository.cs                                         | Total:      299 | Code:      230 | Cmts:       24 | Blank:       45
+            AllyGroupRepository.cs                                       | Total:      245 | Code:      197 | Cmts:        7 | Blank:       41
+            TargetedResultRepository.cs                                  | Total:      187 | Code:      160 | Cmts:        3 | Blank:       24
+            ProjectImageRepository.cs                                    | Total:       49 | Code:       46 | Cmts:        0 | Blank:        3
+            ProjectTypeRepository.cs                                     | Total:       30 | Code:       25 | Cmts:        0 | Blank:        5
+            BehaviorAllocationRepository.cs                              | Total:       14 | Code:       12 | Cmts:        0 | Blank:        2
+
+        ================================================================================================================
+        DIRECTORY: PulseCheck
+        Files: 14 | Total: 8,414 | Code: 6,502 | Comments: 937 | Blank: 975
+        ================================================================================================================
+
+          FILES IN THIS DIRECTORY:
+          -----------------------------------------------------------------------------------------------------------
+            PulseCheckRequestRepository.cs                               | Total:    5,249 | Code:    4,188 | Cmts:      492 | Blank:      569
+            PulseCheckManagerRepository.cs                               | Total:    1,025 | Code:      703 | Cmts:      180 | Blank:      142
+            PulseCheckQuestionRepository.cs                              | Total:      699 | Code:      523 | Cmts:       80 | Blank:       96
+            PulseCheckDefinitionRepository.cs                            | Total:      266 | Code:      216 | Cmts:       15 | Blank:       35
+            PulseCheckResponseRepository.cs                              | Total:      153 | Code:      127 | Cmts:        9 | Blank:       17
+            LevelUpChatRepository.cs                                     | Total:      307 | Code:      116 | Cmts:      153 | Blank:       38
+            PulseCheckSenderReceiverGroupRepository.cs                   | Total:      124 | Code:      107 | Cmts:        0 | Blank:       17
+            PulseCheckCommentRepository.cs                               | Total:       95 | Code:       87 | Cmts:        0 | Blank:        8
+            PulseCheckEventRepository.cs                                 | Total:       95 | Code:       83 | Cmts:        6 | Blank:        6
+            PulseCheckDraftRequestRepository.cs                          | Total:       87 | Code:       82 | Cmts:        0 | Blank:        5
+            PulseCheckCategorizationRepository.cs                        | Total:       93 | Code:       80 | Cmts:        0 | Blank:       13
+            PulseCheckAdditionalItemRepository.cs                        | Total:       86 | Code:       75 | Cmts:        0 | Blank:       11
+            TopExpectationRepository.cs                                  | Total:       85 | Code:       72 | Cmts:        2 | Blank:       11
+            PulseCheckCategorizationMappingRepository.cs                 | Total:       50 | Code:       43 | Cmts:        0 | Blank:        7
+
+        ================================================================================================================
+        DIRECTORY: Shift
+        Files: 3 | Total: 235 | Code: 181 | Comments: 29 | Blank: 25
+        ================================================================================================================
+
+          FILES IN THIS DIRECTORY:
+          -----------------------------------------------------------------------------------------------------------
+            ShiftHighlightsRepository.cs                                 | Total:      188 | Code:      139 | Cmts:       29 | Blank:       20
+            ShiftDetailsRepository.cs                                    | Total:       23 | Code:       21 | Cmts:        0 | Blank:        2
+            ShiftRepository.cs                                           | Total:       24 | Code:       21 | Cmts:        0 | Blank:        3
+
+      ==================================================================================================================
+      DIRECTORY: Interface
+      Files: 57 | Total: 1,221 | Code: 1,051 | Comments: 21 | Blank: 149
+      ==================================================================================================================
+
+        FILES IN THIS DIRECTORY:
+        -------------------------------------------------------------------------------------------------------------
+          IUnitOfWork.cs                                               | Total:       81 | Code:       74 | Cmts:        1 | Blank:        6
+
+        ================================================================================================================
+        DIRECTORY: Access
+        Files: 3 | Total: 50 | Code: 43 | Comments: 0 | Blank: 7
+        ================================================================================================================
+
+          FILES IN THIS DIRECTORY:
+          -----------------------------------------------------------------------------------------------------------
+            IUserActionRepository.cs                                     | Total:       18 | Code:       16 | Cmts:        0 | Blank:        2
+            IAuthorizationRepository.cs                                  | Total:       17 | Code:       14 | Cmts:        0 | Blank:        3
+            IRoleRepository.cs                                           | Total:       15 | Code:       13 | Cmts:        0 | Blank:        2
+
+        ================================================================================================================
+        DIRECTORY: Allies
+        Files: 11 | Total: 261 | Code: 214 | Comments: 12 | Blank: 35
+        ================================================================================================================
+
+          FILES IN THIS DIRECTORY:
+          -----------------------------------------------------------------------------------------------------------
+            IAllyMessageRepository.cs                                    | Total:       47 | Code:       34 | Cmts:        8 | Blank:        5
+            IAllyRepository.cs                                           | Total:       37 | Code:       34 | Cmts:        1 | Blank:        2
+            IConnectedAllyRepository.cs                                  | Total:       43 | Code:       31 | Cmts:        3 | Blank:        9
+            IAllyAllocationRepository.cs                                 | Total:       29 | Code:       26 | Cmts:        0 | Blank:        3
+            IAllyBehaviorRepository.cs                                   | Total:       24 | Code:       22 | Cmts:        0 | Blank:        2
+            IAllySocialMediaRepository.cs                                | Total:       18 | Code:       16 | Cmts:        0 | Blank:        2
+            IAllyRoleRepository.cs                                       | Total:       17 | Code:       15 | Cmts:        0 | Blank:        2
+            IAllyPasscodeRepository.cs                                   | Total:       16 | Code:       14 | Cmts:        0 | Blank:        2
+            IAllyRestPasswordRequestRepository.cs                        | Total:       12 | Code:       10 | Cmts:        0 | Blank:        2
+            IConversationParticipantRepository.cs                        | Total:        9 | Code:        6 | Cmts:        0 | Blank:        3
+            IConversationRepository.cs                                   | Total:        9 | Code:        6 | Cmts:        0 | Blank:        3
+
+        ================================================================================================================
+        DIRECTORY: Behavior
+        Files: 6 | Total: 86 | Code: 73 | Comments: 0 | Blank: 13
+        ================================================================================================================
+
+          FILES IN THIS DIRECTORY:
+          -----------------------------------------------------------------------------------------------------------
+            IBehaviorCategoryRepository.cs                               | Total:       21 | Code:       18 | Cmts:        0 | Blank:        3
+            IJobAidRepository.cs                                         | Total:       15 | Code:       13 | Cmts:        0 | Blank:        2
+            IBehaviorMappingRepository.cs                                | Total:       13 | Code:       11 | Cmts:        0 | Blank:        2
+            IBehaviorSkillInfoRepository.cs                              | Total:       13 | Code:       11 | Cmts:        0 | Blank:        2
+            IBehaviorSkillRepository.cs                                  | Total:       13 | Code:       11 | Cmts:        0 | Blank:        2
+            IVitalBehaviorRepository.cs                                  | Total:       11 | Code:        9 | Cmts:        0 | Blank:        2
+
+        ================================================================================================================
+        DIRECTORY: Culture
+        Files: 5 | Total: 79 | Code: 69 | Comments: 0 | Blank: 10
+        ================================================================================================================
+
+          FILES IN THIS DIRECTORY:
+          -----------------------------------------------------------------------------------------------------------
+            ICountryRepository.cs                                        | Total:       16 | Code:       14 | Cmts:        0 | Blank:        2
+            IRelationshipRepository.cs                                   | Total:       16 | Code:       14 | Cmts:        0 | Blank:        2
+            ISocialMediaRepository.cs                                    | Total:       16 | Code:       14 | Cmts:        0 | Blank:        2
+            ITimeZoneRepository.cs                                       | Total:       16 | Code:       14 | Cmts:        0 | Blank:        2
+            ILanguageRepository.cs                                       | Total:       15 | Code:       13 | Cmts:        0 | Blank:        2
+
+        ================================================================================================================
+        DIRECTORY: Dashboard
+        Files: 3 | Total: 93 | Code: 85 | Comments: 0 | Blank: 8
+        ================================================================================================================
+
+          FILES IN THIS DIRECTORY:
+          -----------------------------------------------------------------------------------------------------------
+            ILeaderDashboardRepository.cs                                | Total:       45 | Code:       42 | Cmts:        0 | Blank:        3
+            IPatientDashboardRepository.cs                               | Total:       32 | Code:       28 | Cmts:        0 | Blank:        4
+            ITeamDashboardRepository.cs                                  | Total:       16 | Code:       15 | Cmts:        0 | Blank:        1
+
+        ================================================================================================================
+        DIRECTORY: Organization
+        Files: 4 | Total: 76 | Code: 66 | Comments: 0 | Blank: 10
+        ================================================================================================================
+
+          FILES IN THIS DIRECTORY:
+          -----------------------------------------------------------------------------------------------------------
+            IOrganizationRepository.cs                                   | Total:       24 | Code:       21 | Cmts:        0 | Blank:        3
+            IPortfolioRepository.cs                                      | Total:       20 | Code:       18 | Cmts:        0 | Blank:        2
+            IOrganizationPortfolioRepository.cs                          | Total:       17 | Code:       14 | Cmts:        0 | Blank:        3
+            IIndustryRepository.cs                                       | Total:       15 | Code:       13 | Cmts:        0 | Blank:        2
+
+        ================================================================================================================
+        DIRECTORY: Project
+        Files: 7 | Total: 118 | Code: 100 | Comments: 0 | Blank: 18
+        ================================================================================================================
+
+          FILES IN THIS DIRECTORY:
+          -----------------------------------------------------------------------------------------------------------
+            IProjectRepository.cs                                        | Total:       19 | Code:       17 | Cmts:        0 | Blank:        2
+            ITargetedResultRepository.cs                                 | Total:       21 | Code:       16 | Cmts:        0 | Blank:        5
+            IAllyGroupRepository.cs                                      | Total:       17 | Code:       15 | Cmts:        0 | Blank:        2
+            IKeyPerformerGroupRepository.cs                              | Total:       17 | Code:       14 | Cmts:        0 | Blank:        3
+            IProjectImageRepository.cs                                   | Total:       16 | Code:       14 | Cmts:        0 | Blank:        2
+            IProjectTypeRepository.cs                                    | Total:       15 | Code:       13 | Cmts:        0 | Blank:        2
+            IBehaviorAllocationRepository.cs                             | Total:       13 | Code:       11 | Cmts:        0 | Blank:        2
+
+        ================================================================================================================
+        DIRECTORY: PulseCheck
+        Files: 14 | Total: 335 | Code: 291 | Comments: 8 | Blank: 36
+        ================================================================================================================
+
+          FILES IN THIS DIRECTORY:
+          -----------------------------------------------------------------------------------------------------------
+            IPulseCheckRequestRepository.cs                              | Total:       71 | Code:       60 | Cmts:        6 | Blank:        5
+            IPulseCheckManagerRepository.cs                              | Total:       45 | Code:       37 | Cmts:        2 | Blank:        6
+            IPulseCheckDefinitionRepository.cs                           | Total:       30 | Code:       27 | Cmts:        0 | Blank:        3
+            IPulseCheckSenderReceiverGroupRepository.cs                  | Total:       21 | Code:       19 | Cmts:        0 | Blank:        2
+            IPulseCheckQuestionRepository.cs                             | Total:       20 | Code:       18 | Cmts:        0 | Blank:        2
+            IPulseCheckResponseRepository.cs                             | Total:       19 | Code:       17 | Cmts:        0 | Blank:        2
+            IPulseCheckAdditionalItemRepository.cs                       | Total:       18 | Code:       16 | Cmts:        0 | Blank:        2
+            IPulseCheckCommentRepository.cs                              | Total:       18 | Code:       16 | Cmts:        0 | Blank:        2
+            IPulseCheckDraftRequestRepository.cs                         | Total:       18 | Code:       16 | Cmts:        0 | Blank:        2
+            IPulseCheckEventRepository.cs                                | Total:       18 | Code:       16 | Cmts:        0 | Blank:        2
+            ITopExpectationRepository.cs                                 | Total:       16 | Code:       14 | Cmts:        0 | Blank:        2
+            ILevelUpChatRepository.cs                                    | Total:       15 | Code:       13 | Cmts:        0 | Blank:        2
+            IPulseCheckCategorizationRepository.cs                       | Total:       14 | Code:       12 | Cmts:        0 | Blank:        2
+            IPulseCheckCategorizationMappingRepository.cs                | Total:       12 | Code:       10 | Cmts:        0 | Blank:        2
+
+        ================================================================================================================
+        DIRECTORY: Shift
+        Files: 3 | Total: 42 | Code: 36 | Comments: 0 | Blank: 6
+        ================================================================================================================
+
+          FILES IN THIS DIRECTORY:
+          -----------------------------------------------------------------------------------------------------------
+            IShiftHighlightsRepository.cs                                | Total:       16 | Code:       14 | Cmts:        0 | Blank:        2
+            IShiftDetailsRepository.cs                                   | Total:       13 | Code:       11 | Cmts:        0 | Blank:        2
+            IShiftRepository.cs                                          | Total:       13 | Code:       11 | Cmts:        0 | Blank:        2
+
+      ==================================================================================================================
+      DIRECTORY: Utility
+      Files: 4 | Total: 718 | Code: 450 | Comments: 162 | Blank: 106
+      ==================================================================================================================
+
+        FILES IN THIS DIRECTORY:
+        -------------------------------------------------------------------------------------------------------------
+          BatchDataTableAccessor.cs                                    | Total:      372 | Code:      212 | Cmts:      104 | Blank:       56
+          BatchDataRowAccessor.cs                                      | Total:      176 | Code:      110 | Cmts:       42 | Blank:       24
+          IntervalCalculations.cs                                      | Total:       94 | Code:       74 | Cmts:       10 | Blank:       10
+          DashboardTexts.cs                                            | Total:       76 | Code:       54 | Cmts:        6 | Blank:       16
+
+    ====================================================================================================================
+    DIRECTORY: AllyAssistOneApp.Shared
+    Files: 10 | Total: 524 | Code: 424 | Comments: 27 | Blank: 73
+    ====================================================================================================================
+
+      ==================================================================================================================
+      DIRECTORY: General
+      Files: 6 | Total: 324 | Code: 256 | Comments: 24 | Blank: 44
+      ==================================================================================================================
+
+        FILES IN THIS DIRECTORY:
+        -------------------------------------------------------------------------------------------------------------
+          Phrases.cs                                                   | Total:      109 | Code:       88 | Cmts:       11 | Blank:       10
+          Constants.cs                                                 | Total:      101 | Code:       69 | Cmts:       13 | Blank:       19
+          SystemSettings.cs                                            | Total:       68 | Code:       61 | Cmts:        0 | Blank:        7
+          TwilioMessagingSettings.cs                                   | Total:       18 | Code:       16 | Cmts:        0 | Blank:        2
+          Envelop.cs                                                   | Total:       16 | Code:       14 | Cmts:        0 | Blank:        2
+          JwtOptions.cs                                                | Total:       12 | Code:        8 | Cmts:        0 | Blank:        4
+
+      ==================================================================================================================
+      DIRECTORY: Helper
+      Files: 2 | Total: 160 | Code: 133 | Comments: 3 | Blank: 24
+      ==================================================================================================================
+
+        FILES IN THIS DIRECTORY:
+        -------------------------------------------------------------------------------------------------------------
+          ImageHelper.cs                                               | Total:      123 | Code:      102 | Cmts:        0 | Blank:       21
+          FileReader.cs                                                | Total:       37 | Code:       31 | Cmts:        3 | Blank:        3
+
+      ==================================================================================================================
+      DIRECTORY: Security
+      Files: 2 | Total: 40 | Code: 35 | Comments: 0 | Blank: 5
+      ==================================================================================================================
+
+        FILES IN THIS DIRECTORY:
+        -------------------------------------------------------------------------------------------------------------
+          Hash.cs                                                      | Total:       24 | Code:       21 | Cmts:        0 | Blank:        3
+          RandomStringGenerator.cs                                     | Total:       16 | Code:       14 | Cmts:        0 | Blank:        2
+
+    ====================================================================================================================
+    DIRECTORY: Test.AllyAssistOneApp.API
+    Files: 24 | Total: 4,376 | Code: 3,676 | Comments: 59 | Blank: 641
+    ====================================================================================================================
+
+      FILES IN THIS DIRECTORY:
+      ---------------------------------------------------------------------------------------------------------------
+        TestLoginRestApi.cs                                          | Total:      746 | Code:      620 | Cmts:       30 | Blank:       96
+        TestData.cs                                                  | Total:      578 | Code:      504 | Cmts:        9 | Blank:       65
+        TestProjectRestAPI.cs                                        | Total:      252 | Code:      209 | Cmts:        0 | Blank:       43
+        TestPortfolioRestAPI.cs                                      | Total:      254 | Code:      203 | Cmts:        0 | Blank:       51
+        TestSocialMediaRestAPI.cs                                    | Total:      235 | Code:      197 | Cmts:        0 | Blank:       38
+        TestAllyGroupRestAPI.cs                                      | Total:      240 | Code:      194 | Cmts:        2 | Blank:       44
+        TestMasterDataRestAPI.cs                                     | Total:      212 | Code:      189 | Cmts:        0 | Blank:       23
+        TestOrganizationRestAPI.cs                                   | Total:      223 | Code:      187 | Cmts:        0 | Blank:       36
+        TestKeyPerformerGroupRestAPI.cs                              | Total:      203 | Code:      166 | Cmts:        2 | Blank:       35
+        TestBehaviorRestAPI.cs                                       | Total:      200 | Code:      158 | Cmts:        0 | Blank:       42
+        TestUserActionRestAPI.cs                                     | Total:      150 | Code:      128 | Cmts:        3 | Blank:       19
+        TestRestAPIs.cs                                              | Total:      156 | Code:      126 | Cmts:        6 | Blank:       24
+        TestPulseCheckBuilderRestAPI.cs                              | Total:      144 | Code:      123 | Cmts:        0 | Blank:       21
+        TestPulseCheckAPI.cs                                         | Total:      132 | Code:      120 | Cmts:        0 | Blank:       12
+        TestVitalBehaviorController.cs                               | Total:      118 | Code:      104 | Cmts:        0 | Blank:       14
+        TestPatientDashboardRestAPI.cs                               | Total:      119 | Code:      103 | Cmts:        0 | Blank:       16
+        TestJobAidRestAPI.cs                                         | Total:      117 | Code:      101 | Cmts:        0 | Blank:       16
+        TestVitalBehaviorRestAPI.cs                                  | Total:      110 | Code:       95 | Cmts:        0 | Blank:       15
+        TestAuthorizationAPI.cs                                      | Total:       96 | Code:       72 | Cmts:        7 | Blank:       17
+        DatabaseFixture.cs                                           | Total:       26 | Code:       21 | Cmts:        0 | Blank:        5
+        TestConnectedAllyAPI.cs                                      | Total:       13 | Code:       11 | Cmts:        0 | Blank:        2
+        GlobalUsings.cs                                              | Total:        4 | Code:        4 | Cmts:        0 | Blank:        0
+
+      ==================================================================================================================
+      DIRECTORY: Shared
+      Files: 2 | Total: 48 | Code: 41 | Comments: 0 | Blank: 7
+      ==================================================================================================================
+
+        FILES IN THIS DIRECTORY:
+        -------------------------------------------------------------------------------------------------------------
+          PriorityOrderer.cs                                           | Total:       39 | Code:       34 | Cmts:        0 | Blank:        5
+          TestPriorityAttribute.cs                                     | Total:        9 | Code:        7 | Cmts:        0 | Blank:        2
+
+    ====================================================================================================================
+    DIRECTORY: Test.AllyAssistOneApp.Business
+    Files: 27 | Total: 9,767 | Code: 8,060 | Comments: 636 | Blank: 1,071
+    ====================================================================================================================
+
+      FILES IN THIS DIRECTORY:
+      ---------------------------------------------------------------------------------------------------------------
+        TestExperiencePulseCheckRequestService.cs                    | Total:    1,239 | Code:      965 | Cmts:      144 | Blank:      130
+        TestPatientDashboardService.cs                               | Total:    1,180 | Code:      962 | Cmts:       84 | Blank:      134
+        TestPulseCheckRequests.cs                                    | Total:    1,047 | Code:      897 | Cmts:       58 | Blank:       92
+        TestData.cs                                                  | Total:      907 | Code:      831 | Cmts:        6 | Blank:       70
+        TestAllyMessageService.cs                                    | Total:      802 | Code:      576 | Cmts:      166 | Blank:       60
+        TestShiftHighlightsService.cs                                | Total:      585 | Code:      456 | Cmts:       42 | Blank:       87
+        TestPulseCheckDefinitionService.cs                           | Total:      538 | Code:      441 | Cmts:       33 | Blank:       64
+        TestPulseCheckDraftRequestService.cs                         | Total:      487 | Code:      426 | Cmts:       17 | Blank:       44
+        TestPulseCheckCommentService.cs                              | Total:      352 | Code:      310 | Cmts:        6 | Blank:       36
+        TestSocialMediaService.cs                                    | Total:      311 | Code:      265 | Cmts:        9 | Blank:       37
+        TestAllyResetPasswordService.cs                              | Total:      261 | Code:      229 | Cmts:        1 | Blank:       31
+        TestAllyService.cs                                           | Total:      279 | Code:      217 | Cmts:       26 | Blank:       36
+        TestOrganizationService.cs                                   | Total:      261 | Code:      194 | Cmts:       21 | Blank:       46
+        TestPulseCheckManagers.cs                                    | Total:      213 | Code:      191 | Cmts:        1 | Blank:       21
+        TestAllyPasscodeService.cs                                   | Total:      139 | Code:      121 | Cmts:        2 | Blank:       16
+        TestAllyAllocationService.cs                                 | Total:      135 | Code:      117 | Cmts:        0 | Blank:       18
+        TestAllyRoleService.cs                                       | Total:      140 | Code:      115 | Cmts:        0 | Blank:       25
+        TestBehaviorCategoryService.cs                               | Total:      123 | Code:      108 | Cmts:        0 | Blank:       15
+        TestConnectedAllyService.cs                                  | Total:      119 | Code:      107 | Cmts:        0 | Blank:       12
+        TestAllyBehaviorService.cs                                   | Total:      123 | Code:      106 | Cmts:        0 | Blank:       17
+        TestAuthorizationService.cs                                  | Total:      135 | Code:      102 | Cmts:        9 | Blank:       24
+        TestPulseCheckRequest.cs                                     | Total:      113 | Code:      100 | Cmts:        2 | Blank:       11
+        TestMessageStrings.cs                                        | Total:       95 | Code:       71 | Cmts:        4 | Blank:       20
+        TestPulseCheckDefinitionServiceMOQ.cs                        | Total:       83 | Code:       69 | Cmts:        3 | Blank:       11
+        TestProjectTypeService.cs                                    | Total:       70 | Code:       59 | Cmts:        2 | Blank:        9
+        DatabaseFixture.cs                                           | Total:       26 | Code:       21 | Cmts:        0 | Blank:        5
+        GlobalUsings.cs                                              | Total:        4 | Code:        4 | Cmts:        0 | Blank:        0
+
+    ====================================================================================================================
+    DIRECTORY: Test.AllyAssistOneApp.Entity
+    Files: 18 | Total: 2,594 | Code: 2,198 | Comments: 29 | Blank: 367
+    ====================================================================================================================
+
+      FILES IN THIS DIRECTORY:
+      ---------------------------------------------------------------------------------------------------------------
+        TestData.cs                                                  | Total:      455 | Code:      401 | Cmts:        1 | Blank:       53
+        TestPulseCheckManager.cs                                     | Total:      204 | Code:      185 | Cmts:        0 | Blank:       19
+        TestPulseCheckDefinition.cs                                  | Total:      207 | Code:      179 | Cmts:        2 | Blank:       26
+        TestAlly.cs                                                  | Total:      200 | Code:      173 | Cmts:        2 | Blank:       25
+        TestAllyPasscode.cs                                          | Total:      191 | Code:      164 | Cmts:        3 | Blank:       24
+        TestAllyRsetPasswordRequest.cs                               | Total:      193 | Code:      163 | Cmts:        4 | Blank:       26
+        TestKeyPerformerGroup.cs                                     | Total:      172 | Code:      144 | Cmts:        2 | Blank:       26
+        TestBehavior.cs                                              | Total:      160 | Code:      132 | Cmts:        2 | Blank:       26
+        TestAllyGroup.cs                                             | Total:      153 | Code:      127 | Cmts:        2 | Blank:       24
+        TestOrganization.cs                                          | Total:      143 | Code:      116 | Cmts:        2 | Blank:       25
+        TestProject.cs                                               | Total:      130 | Code:      107 | Cmts:        2 | Blank:       21
+        TestHierarchyData.cs                                         | Total:      103 | Code:       94 | Cmts:        1 | Blank:        8
+        TestMasterData.cs                                            | Total:       78 | Code:       58 | Cmts:        2 | Blank:       18
+        TestPortfolios.cs                                            | Total:       76 | Code:       55 | Cmts:        2 | Blank:       19
+        TestConnectedAllyEntities.cs                                 | Total:       68 | Code:       52 | Cmts:        2 | Blank:       14
+        TestFactoryDefaults.cs                                       | Total:       34 | Code:       25 | Cmts:        0 | Blank:        9
+        DatabaseFixture.cs                                           | Total:       25 | Code:       21 | Cmts:        0 | Blank:        4
+        GlobalUsings.cs                                              | Total:        2 | Code:        2 | Cmts:        0 | Blank:        0
+
+    ====================================================================================================================
+    DIRECTORY: Test.AllyAssistOneApp.Repository
+    Files: 36 | Total: 8,018 | Code: 6,171 | Comments: 832 | Blank: 1,015
+    ====================================================================================================================
+
+      FILES IN THIS DIRECTORY:
+      ---------------------------------------------------------------------------------------------------------------
+        TestAllyMessageRepository.cs                                 | Total:      968 | Code:      720 | Cmts:      158 | Blank:       90
+        TestPulseCheckAdditionalItemsRepository.cs                   | Total:      644 | Code:      525 | Cmts:       56 | Blank:       63
+        TestPulseCheckExperienceRepository.cs                        | Total:      692 | Code:      505 | Cmts:      116 | Blank:       71
+        TestTopExpectationsRepository.cs                             | Total:      684 | Code:      475 | Cmts:      133 | Blank:       76
+        TestShiftHighlightsRepository.cs                             | Total:      576 | Code:      449 | Cmts:       37 | Blank:       90
+        TestPulseCheckDefinitionRepository.cs                        | Total:      592 | Code:      399 | Cmts:      125 | Blank:       68
+        TestLevelUpChatRepository.cs                                 | Total:      347 | Code:      284 | Cmts:       25 | Blank:       38
+        TestSocialMediaRepository.cs                                 | Total:      318 | Code:      264 | Cmts:       17 | Blank:       37
+        TestAllyRepository.cs                                        | Total:      313 | Code:      248 | Cmts:       13 | Blank:       52
+        TestAuthorizationRepository.cs                               | Total:      286 | Code:      225 | Cmts:        6 | Blank:       55
+        TestPulseCheckRepository.cs                                  | Total:      270 | Code:      215 | Cmts:       20 | Blank:       35
+        TestPulseCheckManagerRepository.cs                           | Total:      189 | Code:      162 | Cmts:        0 | Blank:       27
+        TestAllyResetPasswordRequestRepository.cs                    | Total:      189 | Code:      136 | Cmts:       19 | Blank:       34
+        TestAllyPasscodeRepository.cs                                | Total:      185 | Code:      133 | Cmts:       21 | Blank:       31
+        TestAllyGroupRepository.cs                                   | Total:      137 | Code:      116 | Cmts:        1 | Blank:       20
+        TestPulseCheckResponseRepository.cs                          | Total:      138 | Code:      114 | Cmts:        0 | Blank:       24
+        TestProjectRepository.cs                                     | Total:      140 | Code:      105 | Cmts:       12 | Blank:       23
+        TestKeyPerformerGroupRepository.cs                           | Total:      137 | Code:      101 | Cmts:       14 | Blank:       22
+        TestOrganizationPortfolioRepository.cs                       | Total:      112 | Code:       91 | Cmts:        2 | Blank:       19
+        TestBehaviorCategoryRepository.cs                            | Total:      120 | Code:       89 | Cmts:       13 | Blank:       18
+        TestProjectImageRepository.cs                                | Total:      117 | Code:       87 | Cmts:       14 | Blank:       16
+        TestPortfolioRepository.cs                                   | Total:       91 | Code:       76 | Cmts:        1 | Blank:       14
+        TestOrganizationRepository.cs                                | Total:       83 | Code:       69 | Cmts:        1 | Blank:       13
+        TestProjectTypeRepository.cs                                 | Total:       70 | Code:       57 | Cmts:        2 | Blank:       11
+        TestCountryRepository.cs                                     | Total:       63 | Code:       48 | Cmts:        7 | Blank:        8
+        TestLanguageFixture.cs                                       | Total:       46 | Code:       39 | Cmts:        0 | Blank:        7
+        TestDBContextSupport.cs                                      | Total:       53 | Code:       38 | Cmts:        0 | Blank:       15
+        DatabaseFixture.cs                                           | Total:       26 | Code:       21 | Cmts:        0 | Blank:        5
+        TestConnectedAllyRepository.cs                               | Total:       13 | Code:       11 | Cmts:        0 | Blank:        2
+        GlobalUsings.cs                                              | Total:        4 | Code:        4 | Cmts:        0 | Blank:        0
+
+      ==================================================================================================================
+      DIRECTORY: DefaultTestData
+      Files: 6 | Total: 415 | Code: 365 | Comments: 19 | Blank: 31
+      ==================================================================================================================
+
+        FILES IN THIS DIRECTORY:
+        -------------------------------------------------------------------------------------------------------------
+          DailyShiftHighlightLeaderData.cs                             | Total:      171 | Code:      153 | Cmts:       12 | Blank:        6
+          DailyShiftHighlightData.cs                                   | Total:      110 | Code:       93 | Cmts:        7 | Blank:       10
+          ProjectData.cs                                               | Total:       42 | Code:       35 | Cmts:        0 | Blank:        7
+          AllyData.cs                                                  | Total:       35 | Code:       31 | Cmts:        0 | Blank:        4
+          OrganizationData.cs                                          | Total:       31 | Code:       29 | Cmts:        0 | Blank:        2
+          BehaviorData.cs                                              | Total:       26 | Code:       24 | Cmts:        0 | Blank:        2
+
+========================================================================================================================
+DIRECTORY: AllyAssistOneAppPWA
+Files: 2 | Total: 147 | Code: 101 | Comments: 5 | Blank: 41
+========================================================================================================================
+
+  ======================================================================================================================
+  DIRECTORY: AllyAssistOneAppPWA-hospice_developV6
+  Files: 2 | Total: 147 | Code: 101 | Comments: 5 | Blank: 41
+  ======================================================================================================================
+
+    ====================================================================================================================
+    DIRECTORY: AllyAssist_Selenium
+    Files: 2 | Total: 147 | Code: 101 | Comments: 5 | Blank: 41
+    ====================================================================================================================
+
+      ==================================================================================================================
+      DIRECTORY: AllyAssistSelenium
+      Files: 2 | Total: 147 | Code: 101 | Comments: 5 | Blank: 41
+      ==================================================================================================================
+
+        ================================================================================================================
+        DIRECTORY: AllyAssistSelenium
+        Files: 2 | Total: 147 | Code: 101 | Comments: 5 | Blank: 41
+        ================================================================================================================
+
+          FILES IN THIS DIRECTORY:
+          -----------------------------------------------------------------------------------------------------------
+            E2ETest.cs                                                   | Total:      129 | Code:       85 | Cmts:        5 | Blank:       39
+            UnitTest1.cs                                                 | Total:       18 | Code:       16 | Cmts:        0 | Blank:        2
+
+
+========================================================================================================================
+OVERALL C# TOTALS
+========================================================================================================================
+Total Files:                894
+Total Lines:            473,085
+Total Code Lines:       335,194
+Total Comment Lines:     11,786
+Total Blank Lines:      126,105
+========================================================================================================================
+
+
+========================================================================================================================
+TOP 50 LARGEST C# FILES BY CODE LINES
+========================================================================================================================
+
+  1. AllyAssistBuilderInfrastructure\AllyAssistBuilderInfrastructure-developv6\AllyAssistOneApp.Repository\Implementation\Allies\ConnectedAllyRepository.cs
+     Total:    7,344 | Code:    4,517 | Comments:    1,796 | Blank:    1,031
+
+  2. AllyAssistBuilderInfrastructure\AllyAssistBuilderInfrastructure-developv6\AllyAssistOneApp.Repository\Implementation\PulseCheck\PulseCheckRequestRepository.cs
+     Total:    5,249 | Code:    4,188 | Comments:      492 | Blank:      569
+
+  3. AllyAssistBuilderInfrastructure\AllyAssistBuilderInfrastructure-developv6\AllyAssistOneApp.Business\Implementation\PulseCheck\PulseCheckRequestService.cs
+     Total:    5,981 | Code:    3,515 | Comments:    1,827 | Blank:      639
+
+  4. AllyAssistBuilderInfrastructure\AllyAssistBuilderInfrastructure-developv6\AllyAssistOneApp.Entity\Migrations\20250717055101_ManualTargetedResultChange.Designer.cs
+     Total:    4,597 | Code:    3,183 | Comments:        2 | Blank:    1,412
+
+  5. AllyAssistBuilderInfrastructure\AllyAssistBuilderInfrastructure-developv6\AllyAssistOneApp.Entity\Migrations\AppDbContextModelSnapshot.cs
+     Total:    4,594 | Code:    3,181 | Comments:        1 | Blank:    1,412
+
+  6. AllyAssistBuilderInfrastructure\AllyAssistBuilderInfrastructure-developv6\AllyAssistOneApp.Entity\Migrations\20250715053855_AddOnDemandAnonymousLink.Designer.cs
+     Total:    4,502 | Code:    3,118 | Comments:        2 | Blank:    1,382
+
+  7. AllyAssistBuilderInfrastructure\AllyAssistBuilderInfrastructure-developv6\AllyAssistOneApp.Entity\Migrations\20250707180907_RoleBasedAccess.Designer.cs
+     Total:    4,487 | Code:    3,108 | Comments:        2 | Blank:    1,377
+
+  8. AllyAssistBuilderInfrastructure\AllyAssistBuilderInfrastructure-developv6\AllyAssistOneApp.Entity\Migrations\20250707182553_SetupAllyAssistOrgAdmin.Designer.cs
+     Total:    4,487 | Code:    3,108 | Comments:        2 | Blank:    1,377
+
+  9. AllyAssistBuilderInfrastructure\AllyAssistBuilderInfrastructure-developv6\AllyAssistOneApp.Entity\Migrations\20250606105138_IsSSOUserAddedToAlly.Designer.cs
+     Total:    4,316 | Code:    2,987 | Comments:        2 | Blank:    1,327
+
+ 10. AllyAssistBuilderInfrastructure\AllyAssistBuilderInfrastructure-developv6\AllyAssistOneApp.Entity\Migrations\20250522104623_AddPulseCheckTargetedResults.Designer.cs
+     Total:    4,313 | Code:    2,986 | Comments:        2 | Blank:    1,325
+
+ 11. AllyAssistBuilderInfrastructure\AllyAssistBuilderInfrastructure-developv6\AllyAssistOneApp.Entity\Migrations\20250606065211_ChangeReferentialActionForTargetedResultProject.Designer.cs
+     Total:    4,313 | Code:    2,985 | Comments:        2 | Blank:    1,326
+
+ 12. AllyAssistBuilderInfrastructure\AllyAssistBuilderInfrastructure-developv6\AllyAssistOneApp.Entity\Migrations\20250526124647_AddedColumnIsOnlyDirectReportsAllowedPulseCheckDefination.Designer.cs
+     Total:    4,177 | Code:    2,890 | Comments:        2 | Blank:    1,285
+
+ 13. AllyAssistBuilderInfrastructure\AllyAssistBuilderInfrastructure-developv6\AllyAssistOneApp.Entity\CustomMigrations\20250528125535_UserActionUpdates.Designer.cs
+     Total:    4,174 | Code:    2,888 | Comments:        2 | Blank:    1,284
+
+ 14. AllyAssistBuilderInfrastructure\AllyAssistBuilderInfrastructure-developv6\AllyAssistOneApp.Entity\Migrations\20250521063139_PulseCheckDefinitionId.Designer.cs
+     Total:    4,174 | Code:    2,888 | Comments:        2 | Blank:    1,284
+
+ 15. AllyAssistBuilderInfrastructure\AllyAssistBuilderInfrastructure-developv6\AllyAssistOneApp.Entity\CustomMigrations\20250515075437_AddAnonymousFieldsToPulseCheckTables.Designer.cs
+     Total:    4,171 | Code:    2,886 | Comments:        2 | Blank:    1,283
+
+ 16. AllyAssistBuilderInfrastructure\AllyAssistBuilderInfrastructure-developv6\AllyAssistOneApp.Entity\Migrations\20250512063046_UpdatePCDefinition.Designer.cs
+     Total:    4,156 | Code:    2,876 | Comments:        2 | Blank:    1,278
+
+ 17. AllyAssistBuilderInfrastructure\AllyAssistBuilderInfrastructure-developv6\AllyAssistOneApp.Entity\Migrations\20250430054808_AdditionalFeedbackCommentInPulseCheck.Designer.cs
+     Total:    4,150 | Code:    2,872 | Comments:        2 | Blank:    1,276
+
+ 18. AllyAssistBuilderInfrastructure\AllyAssistBuilderInfrastructure-developv6\AllyAssistOneApp.Entity\Migrations\20250505025907_AddNetworkRelationship.Designer.cs
+     Total:    4,150 | Code:    2,872 | Comments:        2 | Blank:    1,276
+
+ 19. AllyAssistBuilderInfrastructure\AllyAssistBuilderInfrastructure-developv6\AllyAssistOneApp.Entity\Migrations\20250428173007_AddNetworkTypeInConnectedAlly.Designer.cs
+     Total:    4,144 | Code:    2,868 | Comments:        2 | Blank:    1,274
+
+ 20. AllyAssistBuilderInfrastructure\AllyAssistBuilderInfrastructure-developv6\AllyAssistOneApp.Entity\CustomMigrations\20250418052948_AddUserAction.Designer.cs
+     Total:    4,143 | Code:    2,867 | Comments:        2 | Blank:    1,274
+
+ 21. AllyAssistBuilderInfrastructure\AllyAssistBuilderInfrastructure-developv6\AllyAssistOneApp.Entity\Migrations\20250418052948_AddAllowOutsideFeedbackProviderToPulseCheckDefinitions.Designer.cs
+     Total:    4,143 | Code:    2,867 | Comments:        2 | Blank:    1,274
+
+ 22. AllyAssistBuilderInfrastructure\AllyAssistBuilderInfrastructure-developv6\AllyAssistOneApp.Entity\Migrations\20250407031947_AddTimesUsed.Designer.cs
+     Total:    4,137 | Code:    2,863 | Comments:        2 | Blank:    1,272
+
+ 23. AllyAssistBuilderInfrastructure\AllyAssistBuilderInfrastructure-developv6\AllyAssistOneApp.Entity\Migrations\20250328094243_AddCustomLabelFileName.Designer.cs
+     Total:    4,134 | Code:    2,861 | Comments:        2 | Blank:    1,271
+
+ 24. AllyAssistBuilderInfrastructure\AllyAssistBuilderInfrastructure-developv6\AllyAssistOneApp.Entity\CustomMigrations\20250226045756_UpdatePulseCheckSchema.Designer.cs
+     Total:    4,131 | Code:    2,859 | Comments:        2 | Blank:    1,270
+
+ 25. AllyAssistBuilderInfrastructure\AllyAssistBuilderInfrastructure-developv6\AllyAssistOneApp.Entity\Migrations\20250212045344_OrgIDFOrAllyMessage.Designer.cs
+     Total:    4,061 | Code:    2,810 | Comments:        2 | Blank:    1,249
+
+ 26. AllyAssistBuilderInfrastructure\AllyAssistBuilderInfrastructure-developv6\AllyAssistOneApp.Entity\Migrations\20250210151854_AddPulseCheckSchedulerLog.Designer.cs
+     Total:    4,050 | Code:    2,803 | Comments:        2 | Blank:    1,245
+
+ 27. AllyAssistBuilderInfrastructure\AllyAssistBuilderInfrastructure-developv6\AllyAssistOneApp.Entity\Migrations\20250109045938_WeekendPCEntityModify.Designer.cs
+     Total:    3,977 | Code:    2,754 | Comments:        2 | Blank:    1,221
+
+ 28. AllyAssistBuilderInfrastructure\AllyAssistBuilderInfrastructure-developv6\AllyAssistOneApp.Entity\Migrations\20250109080630_WeekendPCEntityModifyToNull.Designer.cs
+     Total:    3,977 | Code:    2,754 | Comments:        2 | Blank:    1,221
+
+ 29. AllyAssistBuilderInfrastructure\AllyAssistBuilderInfrastructure-developv6\AllyAssistOneApp.Entity\Migrations\20250109102820_WeekendPCEntityNull.Designer.cs
+     Total:    3,977 | Code:    2,754 | Comments:        2 | Blank:    1,221
+
+ 30. AllyAssistBuilderInfrastructure\AllyAssistBuilderInfrastructure-developv6\AllyAssistOneApp.Entity\Migrations\20250116043950_AllyGroupAltered.Designer.cs
+     Total:    3,977 | Code:    2,754 | Comments:        2 | Blank:    1,221
+
+ 31. AllyAssistBuilderInfrastructure\AllyAssistBuilderInfrastructure-developv6\AllyAssistOneApp.Entity\Migrations\20250109153052_WeekendPCEntityRevert.Designer.cs
+     Total:    3,974 | Code:    2,752 | Comments:        2 | Blank:    1,220
+
+ 32. AllyAssistBuilderInfrastructure\AllyAssistBuilderInfrastructure-developv6\AllyAssistOneApp.Entity\Migrations\20250121115046_AddNewMigrationName.Designer.cs
+     Total:    3,975 | Code:    2,752 | Comments:        2 | Blank:    1,221
+
+ 33. AllyAssistBuilderInfrastructure\AllyAssistBuilderInfrastructure-developv6\AllyAssistOneApp.Entity\Migrations\20250121180746_AddOrgIdMigrationName.Designer.cs
+     Total:    3,975 | Code:    2,752 | Comments:        2 | Blank:    1,221
+
+ 34. AllyAssistBuilderInfrastructure\AllyAssistBuilderInfrastructure-developv6\AllyAssistOneApp.Entity\Migrations\20250123085210_addPreWeekendExpiryMigration.Designer.cs
+     Total:    3,975 | Code:    2,752 | Comments:        2 | Blank:    1,221
+
+ 35. AllyAssistBuilderInfrastructure\AllyAssistBuilderInfrastructure-developv6\AllyAssistOneApp.Entity\Migrations\20241202092442_PulseCheckSenderReceiverGroupSetCatIdRlnshp.Designer.cs
+     Total:    3,968 | Code:    2,748 | Comments:        2 | Blank:    1,218
+
+ 36. AllyAssistBuilderInfrastructure\AllyAssistBuilderInfrastructure-developv6\AllyAssistOneApp.Entity\Migrations\20241114091227_UpdatedPulseCheckEventsTables.Designer.cs
+     Total:    3,960 | Code:    2,743 | Comments:        2 | Blank:    1,215
+
+ 37. AllyAssistBuilderInfrastructure\AllyAssistBuilderInfrastructure-developv6\AllyAssistOneApp.Entity\Migrations\20241121051929_UpdatedVisitEventStatusPulseCheckManagerEvents.Designer.cs
+     Total:    3,960 | Code:    2,743 | Comments:        2 | Blank:    1,215
+
+ 38. AllyAssistBuilderInfrastructure\AllyAssistBuilderInfrastructure-developv6\AllyAssistOneApp.Entity\Migrations\20241202085813_UpdatedPulseCheckSenderReceiverGroupSetCatIdNullable.Designer.cs
+     Total:    3,960 | Code:    2,743 | Comments:        2 | Blank:    1,215
+
+ 39. AllyAssistBuilderInfrastructure\AllyAssistBuilderInfrastructure-developv6\AllyAssistOneApp.Entity\Migrations\20241007082307_VisitStatusAdded.Designer.cs
+     Total:    3,943 | Code:    2,733 | Comments:        2 | Blank:    1,208
+
+ 40. AllyAssistBuilderInfrastructure\AllyAssistBuilderInfrastructure-developv6\AllyAssistOneApp.Entity\Migrations\20241022085415_IsUpdateAvailableToViewadded.Designer.cs
+     Total:    3,945 | Code:    2,733 | Comments:        2 | Blank:    1,210
+
+ 41. AllyAssistBuilderInfrastructure\AllyAssistBuilderInfrastructure-developv6\AllyAssistOneApp.Entity\Migrations\20241004110846_PrjIdAddToPCMgr.Designer.cs
+     Total:    3,940 | Code:    2,731 | Comments:        2 | Blank:    1,207
+
+ 42. AllyAssistBuilderInfrastructure\AllyAssistBuilderInfrastructure-developv6\AllyAssistOneApp.Entity\Migrations\20241011050519_UpdatePulseCheckDraftRequestsTable.Designer.cs
+     Total:    3,942 | Code:    2,731 | Comments:        2 | Blank:    1,209
+
+ 43. AllyAssistBuilderInfrastructure\AllyAssistBuilderInfrastructure-developv6\AllyAssistOneApp.Entity\Migrations\20241008085759_ModifiedAllyIdNullable.Designer.cs
+     Total:    3,939 | Code:    2,729 | Comments:        2 | Blank:    1,208
+
+ 44. AllyAssistBuilderInfrastructure\AllyAssistBuilderInfrastructure-developv6\AllyAssistOneApp.Entity\Migrations\20240923101432_PulseCheckManagerEvent.Designer.cs
+     Total:    3,929 | Code:    2,724 | Comments:        2 | Blank:    1,203
+
+ 45. AllyAssistBuilderInfrastructure\AllyAssistBuilderInfrastructure-developv6\AllyAssistOneApp.Entity\Migrations\20240919071112_AddedPulseCheckCategorizationTables.Designer.cs
+     Total:    3,867 | Code:    2,681 | Comments:        2 | Blank:    1,184
+
+ 46. AllyAssistBuilderInfrastructure\AllyAssistBuilderInfrastructure-developv6\AllyAssistOneApp.Entity\Migrations\20240910041736_PulseCheckResponseViewLogs.Designer.cs
+     Total:    3,774 | Code:    2,616 | Comments:        2 | Blank:    1,156
+
+ 47. AllyAssistBuilderInfrastructure\AllyAssistBuilderInfrastructure-developv6\AllyAssistOneApp.Entity\Migrations\20240910123524_removePulseCheckRequestColumns.Designer.cs
+     Total:    3,762 | Code:    2,608 | Comments:        2 | Blank:    1,152
+
+ 48. AllyAssistBuilderInfrastructure\AllyAssistBuilderInfrastructure-developv6\AllyAssistOneApp.Entity\Migrations\20240917090418_ModifyTablePulseCheckRequestPulseCheckManager.Designer.cs
+     Total:    3,761 | Code:    2,607 | Comments:        2 | Blank:    1,152
+
+ 49. AllyAssistBuilderInfrastructure\AllyAssistBuilderInfrastructure-developv6\AllyAssistOneApp.Entity\Migrations\20240909074928_PulseCheckRequestModified.Designer.cs
+     Total:    3,712 | Code:    2,573 | Comments:        2 | Blank:    1,137
+
+ 50. AllyAssistBuilderInfrastructure\AllyAssistBuilderInfrastructure-developv6\AllyAssistOneApp.Entity\Migrations\20240902090919_PulseCheckDraftRequestsTable.Designer.cs
+     Total:    3,701 | Code:    2,566 | Comments:        2 | Blank:    1,133
